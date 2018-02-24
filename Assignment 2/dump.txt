@@ -1,0 +1,2840 @@
+ player_name 
+-------------
+ EJG Morgan
+ MJ Lumb
+(2 rows)
+
+   player_name   | player_age 
+-----------------+------------
+ SK Warne        |         48
+ A Kumble        |         47
+ Imran Tahir     |         38
+ Shahid Afridi   |         37
+ CL White        |         34
+ AP Majumdar     |         33
+ MK Tiwary       |         32
+ P Sahu          |         32
+ DB Das          |         31
+ KB Arun Karthik |         31
+ AS Raut         |         30
+ DB Ravi Teja    |         30
+ Karanveer Singh |         30
+ KV Sharma       |         30
+ IR Jaggi        |         29
+ A Mukund        |         28
+ SPD Smith       |         28
+(17 rows)
+
+ match_id | toss_winner 
+----------+-------------
+   335988 |           3
+   335989 |           5
+   335990 |           7
+   335991 |           8
+   335992 |           4
+   335993 |           8
+   335998 |           1
+   336000 |           6
+   336001 |           3
+   336002 |           1
+   336005 |           5
+   336006 |           3
+   336007 |           8
+   336008 |           4
+   336010 |           3
+   336015 |           1
+   336019 |           1
+   336021 |           2
+   336022 |           1
+   336027 |           6
+   336030 |           1
+   336034 |           2
+   336038 |           5
+   336040 |           4
+   336042 |           8
+   336044 |           4
+   392187 |           2
+   392189 |           1
+   392190 |           3
+   392193 |           8
+   392194 |           6
+   392196 |           2
+   392197 |           8
+   392199 |           2
+   392200 |           4
+   392202 |           7
+   392203 |           6
+   392204 |           1
+   392205 |           4
+   392208 |           7
+   392209 |           2
+   392210 |           8
+   392212 |           1
+   392213 |           7
+   392214 |           3
+   392216 |           1
+   392217 |           8
+   392219 |           3
+   392220 |           7
+   392222 |           5
+   392223 |           7
+   392225 |           8
+   392227 |           4
+   392229 |           3
+   392230 |           5
+   392232 |           7
+   392235 |           6
+   392236 |           3
+   392237 |           6
+   392239 |           3
+   392241 |           2
+   419112 |           7
+   419115 |           8
+   419117 |           4
+   419118 |           3
+   419121 |           6
+   419123 |           5
+   419124 |           7
+   419125 |           8
+   419127 |           1
+   419131 |           8
+   419132 |           1
+   419134 |           5
+   419136 |           6
+   419138 |           2
+   419139 |           6
+   419140 |           1
+   419141 |           4
+   419142 |           3
+   419143 |           7
+   419144 |           1
+   419145 |           6
+   419146 |           5
+   419147 |           3
+   419148 |           4
+   419149 |           1
+   419151 |           7
+   419152 |           3
+   419154 |           6
+   419157 |           7
+   419158 |           1
+   419159 |           5
+   419160 |           3
+   419163 |           5
+   419165 |           8
+   419166 |           7
+   419167 |           7
+   419168 |           3
+   419169 |           8
+   419170 |           3
+   501203 |           3
+   501205 |           9
+   501206 |           6
+   501207 |           4
+   501208 |           1
+   501209 |           6
+   501212 |           9
+   501216 |           3
+   501221 |           8
+   501223 |          10
+   501233 |          10
+   501238 |           6
+   501241 |           3
+   501245 |           5
+   501250 |           3
+   501252 |           9
+   501253 |           4
+   501255 |           8
+   501258 |           3
+   501261 |           8
+   501265 |           4
+   501266 |           3
+   501268 |           7
+   501276 |           3
+   548318 |          10
+   548319 |           8
+   548323 |           2
+   548325 |           5
+   548326 |           8
+   548327 |           3
+   548329 |           5
+   548331 |           8
+   548332 |          10
+   548333 |           4
+   548334 |           8
+   548337 |           5
+   548339 |           7
+   548342 |          10
+   548344 |           4
+   548346 |           8
+   548348 |           4
+   548349 |           1
+   548350 |           6
+   548352 |           3
+   548353 |           8
+   548354 |           5
+   548356 |           7
+   548357 |           3
+   548358 |           1
+   548359 |           5
+   548362 |           6
+   548363 |          10
+   548368 |           7
+   548370 |           5
+   548371 |           8
+   548374 |           4
+   548378 |           5
+   548380 |           1
+   548382 |           5
+   548383 |           1
+   548386 |           3
+   598006 |           5
+   598007 |           7
+   598008 |          10
+   598011 |           7
+   598014 |           5
+   598015 |           6
+   598016 |           7
+   598018 |           1
+   598020 |          10
+   598024 |           5
+   598025 |           3
+   598026 |           4
+   598027 |           1
+   598029 |           7
+   598031 |           5
+   598034 |           1
+   598035 |          11
+   598036 |           4
+   598037 |          11
+   598038 |           7
+   598042 |           7
+   598043 |           3
+   598044 |           7
+   598045 |           1
+   598046 |           3
+   598047 |           2
+   598048 |           5
+   598049 |           6
+   598051 |           7
+   598052 |          10
+   598053 |          11
+   598054 |           6
+   598055 |           7
+   598058 |           1
+   598060 |          10
+   598065 |          11
+   598067 |           3
+   598070 |          11
+   598072 |          10
+   598074 |           1
+   598075 |           3
+   598076 |          11
+   598077 |           5
+   598078 |           7
+   729284 |           1
+   729288 |           3
+   729294 |           1
+   729298 |           3
+   729306 |          11
+   729308 |           7
+   729314 |           7
+   729316 |          11
+   733976 |           3
+   733978 |           4
+   733990 |           6
+   734004 |           2
+   734006 |          11
+   734008 |           5
+   734018 |           3
+   734020 |          11
+   734022 |           7
+   734026 |           2
+   829716 |           3
+   829726 |           7
+   829730 |           4
+   829734 |           7
+   829736 |           6
+   829740 |           3
+   829756 |           7
+   829758 |           3
+   829766 |           1
+   829780 |           7
+   829784 |           3
+   829788 |           6
+   829794 |           3
+   829796 |           4
+   829798 |          11
+   829800 |           2
+   829802 |           3
+   829804 |          11
+   829806 |           3
+   829812 |          11
+   829814 |           4
+   829816 |           5
+   829820 |          11
+   829822 |           7
+   829824 |           2
+   980906 |           7
+   980916 |          12
+   980920 |          11
+   980924 |          12
+   980942 |           2
+   980984 |          11
+   980990 |           7
+   980994 |          12
+   980996 |           4
+   981010 |           4
+   981024 |          11
+(259 rows)
+
+ over_id | runs_scored 
+---------+-------------
+       7 |           7
+       7 |           7
+      14 |           7
+      18 |           7
+       3 |           6
+      14 |           6
+       2 |           5
+       8 |           5
+       8 |           5
+       9 |           5
+      11 |           5
+       1 |           4
+       4 |           4
+       9 |           4
+      15 |           4
+      16 |           4
+       1 |           3
+       3 |           3
+      12 |           3
+       6 |           2
+       6 |           1
+      16 |           1
+(22 rows)
+
+   player_name    
+------------------
+ AA Jhunjhunwala
+ A Ashish Reddy
+ AB de Villiers
+ AB Dinda
+ AB McDonald
+ AC Blizzard
+ AC Gilchrist
+ AC Thomas
+ AD Mascarenhas
+ AD Mathews
+ AD Nath
+ AD Russell
+ AG Paunikar
+ AJ Finch
+ A Kumble
+ AL Menaria
+ A Mishra
+ A Mithun
+ AM Nayar
+ AM Rahane
+ A Mukund
+ AN Ahmed
+ A Nehra
+ Anirudh Singh
+ Anureet Singh
+ AP Majumdar
+ AP Tare
+ AR Patel
+ A Singh
+ AS Raut
+ A Symonds
+ AT Rayudu
+ AUK Pathan
+ A Uniyal
+ Azhar Mahmood
+ B Akhil
+ BAW Mendis
+ BB McCullum
+ BB Samantray
+ B Chipli
+ BE Hendricks
+ Bipul Sharma
+ BJ Hodge
+ BJ Rohrer
+ B Kumar
+ B Laughlin
+ B Lee
+ BR Dunk
+ B Sumanth
+ CA Ingram
+ CA Lynn
+ CA Pujara
+ CH Gayle
+ CH Morris
+ CJ Anderson
+ CK Langeveldt
+ CL White
+ DA Miller
+ DA Warner
+ DB Das
+ DB Ravi Teja
+ DH Yagnik
+ DJ Bravo
+ DJG Sammy
+ DJ Hooda
+ DJ Hussey
+ DJ Jacobs
+ DJ Thornely
+ DL Vettori
+ DNT Zoysa
+ DPMD Jayawardene
+ DP Nannes
+ DR Martyn
+ DR Smith
+ DS Kulkarni
+ DT Christian
+ DW Steyn
+ EJG Morgan
+ F du Plessis
+ FH Edwards
+ GC Smith
+ G Gambhir
+ GJ Bailey
+ GJ Maxwell
+ Gurkeerat Singh
+ Harbhajan Singh
+ HH Gibbs
+ HH Pandya
+ HV Patel
+ IC Pandey
+ IK Pathan
+ Imran Tahir
+ IR Jaggi
+ I Sharma
+ JA Morkel
+ J Botha
+ JC Buttler
+ JDP Oram
+ JD Ryder
+ JEC Franklin
+ JH Kallis
+ JM Kemp
+ Joginder Sharma
+ JP Duminy
+ JP Faulkner
+ KAJ Roach
+ KA Pollard
+ Karanveer Singh
+ KB Arun Karthik
+ KC Cariappa
+ KC Sangakkara
+ KD Karthik
+ K Goel
+ KH Pandya
+ KK Cooper
+ KK Nair
+ KL Rahul
+ KM Jadhav
+ KP Pietersen
+ KS Williamson
+ LA Pomersbach
+ L Balaji
+ LMP Simmons
+ LRPL Taylor
+ LR Shukla
+ MA Agarwal
+ Mandeep Singh
+ MA Starc
+ MC Henriques
+ MD Mishra
+ MEK Hussey
+ MF Maharoof
+ MG Johnson
+ MJ Clarke
+ MJ Lumb
+ M Kaif
+ M Kartik
+ M Klinger
+ MK Pandey
+ MK Tiwary
+ ML Hayden
+ M Manhas
+ M Morkel
+ MM Sharma
+ M Muralitharan
+ MN Samuels
+ M Ntini
+ MN van Wyk
+ Mohammad Hafeez
+ Mohammed Shami
+ M Rawat
+ MR Marsh
+ MS Bisla
+ MS Dhoni
+ MS Gony
+ MS Wade
+ MV Boucher
+ M Vijay
+ M Vohra
+ NJ Maddinson
+ NK Patel
+ NLTC Perera
+ NM Coulter-Nile
+ N Saini
+ NS Naik
+ NV Ojha
+ OA Shah
+ Pankaj Singh
+ PA Patel
+ PA Reddy
+ PC Valthaty
+ P Dogra
+ PJ Sangwan
+ P Kumar
+ P Negi
+ PP Chawla
+ PP Ojha
+ PR Shah
+ Q de Kock
+ RA Jadeja
+ R Ashwin
+ R Bhatia
+ R Dhawan
+ R Dravid
+ RE Levi
+ RE van der Merwe
+ RG Sharma
+ RJ Harris
+ RJ Quiney
+ R McLaren
+ RN ten Doeschate
+ RP Singh
+ RR Pant
+ RR Powar
+ RR Raje
+ RR Rossouw
+ RR Sarwan
+ R Sathish
+ RS Bopara
+ R Sharma
+ RV Gomez
+ R Vinay Kumar
+ RV Uthappa
+ SA Asnodkar
+ Salman Butt
+ S Anirudha
+ SA Yadav
+ S Badrinath
+ SB Styris
+ SC Ganguly
+ S Dhawan
+ SE Bond
+ SE Marsh
+ Shakib Al Hasan
+ Shivam Sharma
+ Shoaib Malik
+ SJ Srivastava
+ SK Raina
+ SK Trivedi
+ SK Warne
+ SL Malinga
+ SM Katich
+ SM Pollock
+ S Nadeem
+ Sohail Tanvir
+ SPD Smith
+ SP Fleming
+ SP Goswami
+ SP Narine
+ S Rana
+ SR Tendulkar
+ SR Watson
+ SS Iyer
+ S Sohal
+ S Sreesanth
+ S Sriram
+ SS Tiwary
+ ST Jayasuriya
+ STR Binny
+ SV Samson
+ SW Billings
+ SW Tait
+ TD Paine
+ TG Southee
+ T Henderson
+ TL Suman
+ TM Dilshan
+ TR Birt
+ UA Birla
+ UBT Chand
+ UT Yadav
+ VH Zol
+ V Kohli
+ VR Aaron
+ V Sehwag
+ VS Malik
+ VVS Laxman
+ VY Mahesh
+ WA Mota
+ WD Parnell
+ WP Saha
+ WPUJC Vaas
+ YK Pathan
+ Y Nagar
+ Younis Khan
+ Yuvraj Singh
+ Y Venugopal Rao
+ YV Takawale
+ Z Khan
+(269 rows)
+
+ match_id |           team_1            |           team_2            |      winning_team_name      | win_margin 
+----------+-----------------------------+-----------------------------+-----------------------------+------------
+   598051 | Mumbai Indians              | Chennai Super Kings         | Mumbai Indians              |         60
+   734016 | Rajasthan Royals            | Delhi Daredevils            | Rajasthan Royals            |         62
+   419143 | Mumbai Indians              | Deccan Chargers             | Mumbai Indians              |         63
+   501254 | Rajasthan Royals            | Chennai Super Kings         | Chennai Super Kings         |         63
+   336028 | Rajasthan Royals            | Royal Challengers Bangalore | Rajasthan Royals            |         65
+   598055 | Mumbai Indians              | Kolkata Knight Riders       | Mumbai Indians              |         65
+   335996 | Kings XI Punjab             | Mumbai Indians              | Kings XI Punjab             |         66
+   419139 | Delhi Daredevils            | Rajasthan Royals            | Delhi Daredevils            |         67
+   829824 | Royal Challengers Bangalore | Rajasthan Royals            | Royal Challengers Bangalore |         71
+   729300 | Kings XI Punjab             | Sunrisers Hyderabad         | Kings XI Punjab             |         72
+   548316 | Deccan Chargers             | Chennai Super Kings         | Chennai Super Kings         |         74
+   392187 | Royal Challengers Bangalore | Rajasthan Royals            | Royal Challengers Bangalore |         75
+   501256 | Kings XI Punjab             | Mumbai Indians              | Kings XI Punjab             |         76
+   598056 | Sunrisers Hyderabad         | Chennai Super Kings         | Chennai Super Kings         |         77
+   392214 | Chennai Super Kings         | Deccan Chargers             | Chennai Super Kings         |         78
+   392215 | Kings XI Punjab             | Rajasthan Royals            | Rajasthan Royals            |         78
+   980998 | Mumbai Indians              | Delhi Daredevils            | Mumbai Indians              |         80
+   501269 | Kings XI Punjab             | Deccan Chargers             | Deccan Chargers             |         82
+   981004 | Royal Challengers Bangalore | Kings XI Punjab             | Royal Challengers Bangalore |         82
+   501249 | Royal Challengers Bangalore | Kings XI Punjab             | Royal Challengers Bangalore |         85
+   980978 | Mumbai Indians              | Sunrisers Hyderabad         | Sunrisers Hyderabad         |         85
+   548385 | Delhi Daredevils            | Chennai Super Kings         | Chennai Super Kings         |         86
+   598025 | Delhi Daredevils            | Chennai Super Kings         | Chennai Super Kings         |         86
+   598024 | Rajasthan Royals            | Mumbai Indians              | Rajasthan Royals            |         87
+   392190 | Royal Challengers Bangalore | Chennai Super Kings         | Chennai Super Kings         |         92
+   392202 | Kolkata Knight Riders       | Mumbai Indians              | Mumbai Indians              |         92
+   729298 | Chennai Super Kings         | Delhi Daredevils            | Chennai Super Kings         |         93
+   829758 | Chennai Super Kings         | Kings XI Punjab             | Chennai Super Kings         |         97
+   419119 | Delhi Daredevils            | Mumbai Indians              | Mumbai Indians              |         98
+   336043 | Delhi Daredevils            | Rajasthan Royals            | Rajasthan Royals            |        105
+   501265 | Kings XI Punjab             | Royal Challengers Bangalore | Kings XI Punjab             |        111
+   598032 | Royal Challengers Bangalore | Pune Warriors               | Royal Challengers Bangalore |        130
+   829790 | Royal Challengers Bangalore | Kings XI Punjab             | Royal Challengers Bangalore |        138
+   335987 | Royal Challengers Bangalore | Kolkata Knight Riders       | Kolkata Knight Riders       |        140
+   980992 | Royal Challengers Bangalore | Gujarat Lions               | Royal Challengers Bangalore |        144
+(35 rows)
+
+    player_name    
+-------------------
+ AA Kazi
+ AG Murtaza
+ AL Menaria
+ A Mukund
+ Ankit Sharma
+ AR Patel
+ BA Bhatt
+ BB Sran
+ BE Hendricks
+ CJ Anderson
+ DA Miller
+ GS Sandhu
+ Harmeet Singh
+ Harpreet Singh
+ Iqbal Abdulla
+ Ishan Kishan
+ JDS Neesham
+ J Suchith
+ Kamran Khan
+ KH Pandya
+ Kuldeep Yadav
+ MA Starc
+ MDKJ Perera
+ Mustafizur Rahman
+ NJ Maddinson
+ NLTC Perera
+ N Rana
+ P Negi
+ PP Chawla
+ Q de Kock
+ RA Jadeja
+ RR Pant
+ RR Rossouw
+ R Tewatia
+ Sachin Baby
+ SB Wagh
+ SP Goswami
+ SP Narine
+ SS Tiwary
+ TM Head
+ TM Srivastava
+ VH Zol
+ WD Parnell
+(43 rows)
+
+ match_id | total_runs 
+----------+------------
+   335987 |        304
+   335988 |        447
+   335989 |        257
+   335990 |        331
+   335991 |        222
+   335992 |        334
+   335993 |        285
+   335994 |        410
+   335995 |        431
+   335996 |        298
+   335997 |        273
+   335998 |        299
+   335999 |        309
+   336000 |        320
+   336001 |        343
+   336002 |        275
+   336003 |        372
+   336004 |        331
+   336005 |        347
+   336006 |        341
+   336007 |        336
+   336008 |        347
+   336009 |        295
+   336010 |        219
+   336011 |        253
+   336012 |        292
+   336013 |        207
+   336014 |        375
+   336015 |        253
+   336016 |        281
+   336017 |        248
+   336018 |        344
+   336019 |        379
+   336020 |        315
+   336021 |        287
+   336022 |        243
+   336023 |        314
+   336024 |        401
+   336025 |        376
+   336026 |        135
+   336027 |        212
+   336028 |        329
+   336029 |        331
+   336030 |        204
+   336031 |        312
+   336032 |        297
+   336033 |        377
+   336034 |        238
+   336036 |        353
+   336037 |        355
+   336038 |        412
+   336039 |        309
+   336040 |        349
+   336041 |        291
+   336042 |        295
+   336043 |        279
+   336044 |        228
+   336045 |        327
+   392186 |        311
+   392187 |        191
+   392188 |        162
+   392189 |        205
+   392190 |        266
+   392191 |        237
+   392193 |        344
+   392194 |        369
+   392196 |        341
+   392197 |        324
+   392199 |        299
+   392200 |        251
+   392201 |        334
+   392202 |        282
+   392203 |        290
+   392204 |        282
+   392205 |        235
+   392206 |        298
+   392207 |        290
+   392208 |        287
+   392209 |        282
+   392210 |        283
+   392211 |        308
+   392212 |        307
+   392213 |        299
+   392214 |        278
+   392215 |        344
+   392216 |        311
+   392217 |        271
+   392218 |        212
+   392219 |        359
+   392220 |        234
+   392221 |        337
+   392222 |        281
+   392223 |        298
+   392224 |        248
+   392225 |        279
+   392226 |        349
+   392227 |        241
+   392228 |        334
+   392229 |        261
+   392230 |        288
+   392231 |        239
+   392232 |        298
+   392233 |        326
+   392234 |        267
+   392235 |        286
+   392236 |        377
+   392237 |        269
+   392238 |        203
+   392239 |        208
+   392240 |        331
+   392241 |        328
+   392242 |        307
+   392243 |        295
+   392244 |        280
+   419111 |        311
+   419112 |        420
+   419113 |        288
+   419114 |        271
+   419115 |        349
+   419116 |        283
+   419117 |        407
+   419118 |        273
+   419119 |        338
+   419120 |        185
+   419121 |        375
+   419122 |        334
+   419123 |        302
+   419124 |        306
+   419125 |        332
+   419127 |        311
+   419128 |        306
+   419129 |        335
+   419130 |        361
+   419131 |        299
+   419132 |        327
+   419133 |        349
+   419134 |        337
+   419135 |        303
+   419136 |        314
+   419137 |        327
+   419138 |        323
+   419139 |        309
+   419140 |        338
+   419141 |        365
+   419142 |        469
+   419143 |        293
+   419144 |        404
+   419145 |        331
+   419146 |        316
+   419147 |        306
+   419148 |        310
+   419149 |        348
+   419150 |        370
+   419151 |        312
+   419152 |        277
+   419153 |        322
+   419154 |        223
+   419155 |        311
+   419156 |        289
+   419157 |        326
+   419158 |        282
+   419159 |        262
+   419160 |        225
+   419161 |        352
+   419162 |        325
+   419163 |        265
+   419164 |        387
+   419165 |        279
+   419166 |        268
+   419167 |        333
+   419168 |        246
+   419169 |        168
+   419170 |        314
+   501203 |        304
+   501204 |        278
+   501205 |        323
+   501206 |        194
+   501207 |        225
+   501208 |        317
+   501209 |        303
+   501210 |        283
+   501211 |        381
+   501212 |        299
+   501213 |        317
+   501214 |        319
+   501215 |        366
+   501216 |        345
+   501217 |        331
+   501218 |        377
+   501219 |        166
+   501220 |        266
+   501221 |        320
+   501223 |        242
+   501224 |        258
+   501225 |        342
+   501226 |        320
+   501227 |        346
+   501228 |        433
+   501229 |        307
+   501230 |        216
+   501231 |        259
+   501232 |        321
+   501233 |        286
+   501234 |        203
+   501235 |        279
+   501236 |        189
+   501237 |        336
+   501238 |        276
+   501239 |        239
+   501240 |        287
+   501241 |        311
+   501242 |        295
+   501243 |        281
+   501244 |        318
+   501245 |        296
+   501246 |        299
+   501247 |        295
+   501248 |        354
+   501249 |        325
+   501250 |        175
+   501251 |        324
+   501252 |        253
+   501253 |        239
+   501254 |        329
+   501255 |        273
+   501256 |        250
+   501257 |        293
+   501258 |        334
+   501259 |        359
+   501260 |        194
+   501261 |        260
+   501262 |        307
+   501263 |        195
+   501264 |        274
+   501265 |        353
+   501266 |        293
+   501267 |        237
+   501268 |        267
+   501269 |        314
+   501271 |        257
+   501272 |        353
+   501273 |        352
+   501274 |        295
+   501275 |        327
+   501276 |        352
+   548311 |        227
+   548312 |        197
+   548313 |        224
+   548314 |        351
+   548315 |        294
+   548316 |        312
+   548317 |        306
+   548318 |        310
+   548319 |        280
+   548320 |        288
+   548321 |        221
+   548322 |        367
+   548323 |        413
+   548324 |        231
+   548325 |        268
+   548326 |        319
+   548327 |        311
+   548328 |        266
+   548329 |        331
+   548330 |        185
+   548331 |        393
+   548332 |        368
+   548333 |        251
+   548334 |        380
+   548335 |        315
+   548336 |        329
+   548337 |        293
+   548338 |        364
+   548339 |        326
+   548340 |        253
+   548341 |        332
+   548342 |        294
+   548344 |        339
+   548346 |        336
+   548347 |        377
+   548348 |        305
+   548349 |        333
+   548350 |        303
+   548351 |        201
+   548352 |        279
+   548353 |        359
+   548354 |        285
+   548355 |        321
+   548356 |        239
+   548357 |        310
+   548358 |        293
+   548359 |        311
+   548360 |        347
+   548361 |        366
+   548362 |        307
+   548363 |        251
+   548364 |        315
+   548365 |        283
+   548366 |        253
+   548367 |        311
+   548368 |        337
+   548369 |        229
+   548370 |        295
+   548371 |        384
+   548372 |        344
+   548373 |        318
+   548374 |        276
+   548375 |        248
+   548376 |        243
+   548377 |        409
+   548378 |        254
+   548379 |        286
+   548380 |        238
+   548381 |        249
+   548382 |        325
+   548383 |        306
+   548384 |        336
+   548385 |        358
+   548386 |        382
+   598003 |        257
+   598004 |        310
+   598005 |        230
+   598006 |        325
+   598007 |        287
+   598008 |        199
+   598010 |        269
+   598011 |        374
+   598012 |        277
+   598013 |        312
+   598014 |        293
+   598015 |        229
+   598016 |        325
+   598017 |        331
+   598018 |        312
+   598019 |        250
+   598020 |        294
+   598021 |        310
+   598023 |        227
+   598024 |        271
+   598025 |        252
+   598026 |        250
+   598027 |        243
+   598028 |        240
+   598029 |        322
+   598030 |        371
+   598031 |        371
+   598032 |        396
+   598033 |        335
+   598034 |        321
+   598035 |        319
+   598036 |        299
+   598037 |        290
+   598038 |        330
+   598039 |        386
+   598040 |        313
+   598041 |        344
+   598042 |        344
+   598043 |        291
+   598044 |        259
+   598045 |        273
+   598046 |        357
+   598047 |        357
+   598048 |        265
+   598049 |        161
+   598050 |        350
+   598051 |        218
+   598052 |        360
+   598053 |        323
+   598054 |        309
+   598055 |        275
+   598056 |        369
+   598057 |        292
+   598058 |        258
+   598059 |        362
+   598060 |        228
+   598061 |        270
+   598062 |        231
+   598063 |        285
+   598064 |        241
+   598065 |        362
+   598066 |        333
+   598067 |        303
+   598068 |        318
+   598069 |        384
+   598070 |        249
+   598071 |        316
+   598072 |        306
+   598073 |        188
+   598074 |        262
+   598075 |        336
+   598076 |        267
+   598077 |        334
+   598078 |        273
+   729284 |        285
+   729286 |        291
+   729288 |        411
+   729290 |        268
+   729292 |        231
+   729294 |        333
+   729296 |        384
+   729298 |        261
+   729300 |        314
+   729302 |        273
+   729304 |        298
+   729306 |        364
+   729308 |        283
+   729310 |        141
+   729312 |        241
+   729314 |        246
+   729316 |        291
+   729318 |        251
+   729322 |        329
+   733976 |        262
+   733978 |        338
+   733980 |        308
+   733982 |        313
+   733984 |        330
+   733986 |        359
+   733988 |        355
+   733990 |        321
+   733992 |        418
+   733994 |        236
+   733996 |        364
+   733998 |        187
+   734000 |        317
+   734002 |        299
+   734004 |        381
+   734006 |        317
+   734008 |        297
+   734010 |        356
+   734012 |        416
+   734014 |        283
+   734016 |        340
+   734018 |        280
+   734020 |        288
+   734022 |        331
+   734024 |        329
+   734026 |        321
+   734028 |        310
+   734030 |        315
+   734032 |        360
+   734034 |        374
+   734036 |        331
+   734038 |        342
+   734040 |        314
+   734042 |        321
+   734044 |        234
+   734046 |        384
+   734048 |        298
+   734050 |        349
+   734052 |        428
+   734054 |        399
+   829710 |        338
+   829712 |        299
+   829714 |        298
+   829716 |        373
+   829718 |        356
+   829720 |        370
+   829722 |        336
+   829724 |        338
+   829726 |        329
+   829728 |        334
+   829730 |        334
+   829732 |        258
+   829734 |        372
+   829736 |        330
+   829738 |        314
+   829740 |        313
+   829742 |        400
+   829744 |        293
+   829748 |        277
+   829750 |        335
+   829752 |        343
+   829754 |        264
+   829756 |        294
+   829758 |        287
+   829762 |        194
+   829764 |        280
+   829766 |        329
+   829770 |        266
+   829772 |        237
+   829774 |        366
+   829776 |        226
+   829778 |        362
+   829780 |        321
+   829782 |        364
+   829784 |        272
+   829786 |        299
+   829788 |        305
+   829790 |        314
+   829792 |        395
+   829794 |        317
+   829796 |        367
+   829798 |        320
+   829800 |        431
+   829802 |        302
+   829804 |        365
+   829806 |        239
+   829808 |        190
+   829810 |        337
+   829812 |        218
+   829814 |        264
+   829816 |        389
+   829820 |        227
+   829822 |        349
+   829824 |        289
+   829826 |        279
+   829828 |        363
+   980906 |        247
+   980908 |        197
+   980910 |        323
+   980912 |        409
+   980914 |        375
+   980916 |        327
+   980918 |        224
+   980920 |        288
+   980922 |        290
+   980924 |        305
+   980926 |        383
+   980928 |        287
+   980930 |        279
+   980932 |        341
+   980934 |        272
+   980936 |        357
+   980938 |        318
+   980940 |        289
+   980942 |        362
+   980944 |        322
+   980946 |        353
+   980948 |        212
+   980950 |        343
+   980952 |        352
+   980954 |        391
+   980956 |        345
+   980958 |        373
+   980960 |        285
+   980962 |        320
+   980964 |        374
+   980966 |        299
+   980968 |        321
+   980970 |        328
+   980972 |        255
+   980974 |        386
+   980976 |        353
+   980978 |        269
+   980980 |        322
+   980982 |        349
+   980984 |        270
+   980986 |        304
+   980988 |        296
+   980990 |        251
+   980992 |        348
+   980994 |        169
+   980996 |        359
+   980998 |        332
+   981000 |        369
+   981002 |        197
+   981004 |        331
+   981006 |        249
+   981008 |        319
+   981010 |        345
+   981012 |        345
+   981014 |        320
+   981016 |        277
+   981018 |        317
+   981020 |        302
+   981022 |        325
+   981024 |        408
+(568 rows)
+
+ match_id | maximum_runs |    player_name    
+----------+--------------+-------------------
+   335987 |           24 | CL White
+   335988 |           25 | JR Hopes
+   335989 |           13 | SR Watson
+   335989 |           13 | SK Trivedi
+   335990 |           20 | R Vinay Kumar
+   335991 |           20 | DJ Hussey
+   335992 |           17 | SR Watson
+   335993 |           30 | A Symonds
+   335994 |           21 | P Amarnath
+   335995 |           22 | WPUJC Vaas
+   335996 |           22 | VRV Singh
+   335997 |           26 | P Kumar
+   335998 |           18 | I Sharma
+   335999 |           23 | SM Pollock
+   336000 |           15 | S Sreesanth
+   336001 |           24 | DW Steyn
+   336002 |           16 | Mohammad Hafeez
+   336003 |           19 | SB Joshi
+   336003 |           19 | V Sehwag
+   336004 |           19 | D Kalyankrishna
+   336005 |           16 | SK Trivedi
+   336005 |           16 | LR Shukla
+   336006 |           19 | Joginder Sharma
+   336007 |           21 | LPC Silva
+   336008 |           21 | I Sharma
+   336009 |           22 | Mohammad Asif
+   336010 |           17 | SK Warne
+   336011 |           14 | A Kumble
+   336012 |           21 | Joginder Sharma
+   336013 |           17 | DS Kulkarni
+   336014 |           23 | V Sehwag
+   336015 |           15 | A Kumble
+   336015 |           15 | LR Shukla
+   336015 |           15 | Umar Gul
+   336015 |           15 | M Kartik
+   336016 |           17 | PP Ojha
+   336017 |           18 | DS Kulkarni
+   336018 |           19 | MS Gony
+   336019 |           22 | M Kartik
+   336020 |           27 | SK Warne
+   336021 |           21 | DW Steyn
+   336022 |           13 | VY Mahesh
+   336023 |           26 | CK Kapugedera
+   336024 |           25 | Pankaj Singh
+   336025 |           20 | RP Singh
+   336026 |           23 | Shoaib Akhtar
+   336027 |           22 | V Sehwag
+   336027 |           22 | VRV Singh
+   336028 |           19 | SK Trivedi
+   336029 |           19 | DNT Zoysa
+   336030 |           16 | M Muralitharan
+   336031 |           24 | R Bhatia
+   336032 |           17 | SC Ganguly
+   336033 |           24 | IK Pathan
+   336034 |           20 | DW Steyn
+   336036 |           21 | Gagandeep Singh
+   336037 |           19 | SM Pollock
+   336038 |           20 | L Balaji
+   336039 |           16 | A Kumble
+   336040 |           18 | PP Chawla
+   336041 |           25 | SR Watson
+   336042 |           15 | M Ntini
+   336043 |           21 | VY Mahesh
+   336044 |           16 | PP Chawla
+   336045 |           15 | M Muralitharan
+   336045 |           15 | Sohail Tanvir
+   392186 |           22 | A Flintoff
+   392187 |           16 | MM Patel
+   392188 |           19 | YA Abdulla
+   392189 |           17 | AB Agarkar
+   392190 |           20 | JH Kallis
+   392191 |           17 | IK Pathan
+   392193 |           20 | A Kumble
+   392194 |           24 | AM Salvi
+   392196 |           19 | P Kumar
+   392197 |           19 | Harmeet Singh
+   392199 |           19 | JH Kallis
+   392200 |           12 | YK Pathan
+   392200 |           12 | SK Warne
+   392201 |           20 | MS Gony
+   392201 |           20 | Shoaib Ahmed
+   392202 |           17 | BAW Mendis
+   392203 |           19 | DL Vettori
+   392204 |           15 | AB Agarkar
+   392205 |           15 | JP Duminy
+   392206 |           20 | A Mishra
+   392207 |           24 | AD Mascarenhas
+   392207 |           24 | Kamran Khan
+   392208 |           16 | LR Shukla
+   392208 |           16 | AB Dinda
+   392209 |           21 | YA Abdulla
+   392210 |           17 | Y Venugopal Rao
+   392211 |           17 | PJ Sangwan
+   392212 |           22 | AB Dinda
+   392213 |           18 | RE van der Merwe
+   392214 |           19 | JA Morkel
+   392214 |           19 | TL Suman
+   392215 |           23 | S Sreesanth
+   392216 |           21 | DP Nannes
+   392217 |           15 | Harbhajan Singh
+   392217 |           15 | ST Jayasuriya
+   392218 |           16 | P Kumar
+   392219 |           24 | VRV Singh
+   392220 |           19 | SR Tendulkar
+   392221 |           20 | A Symonds
+   392221 |           20 | S Sreesanth
+   392222 |           20 | SM Harwood
+   392223 |           16 | SL Malinga
+   392224 |           15 | SS Sarkar
+   392225 |           17 | SK Trivedi
+   392226 |           20 | B Akhil
+   392226 |           20 | JH Kallis
+   392227 |           21 | S Sreesanth
+   392228 |           24 | Shoaib Ahmed
+   392229 |           16 | R Vinay Kumar
+   392230 |           19 | DJ Bravo
+   392231 |           15 | PJ Sangwan
+   392232 |           18 | JA Morkel
+   392233 |           28 | Harmeet Singh
+   392233 |           28 | RP Singh
+   392234 |           18 | IK Pathan
+   392234 |           18 | WA Mota
+   392235 |           25 | MM Patel
+   392236 |           22 | S Tyagi
+   392237 |           14 | Y Nagar
+   392237 |           14 | DL Vettori
+   392238 |           22 | BJ Hodge
+   392239 |           13 | T Thushara
+   392240 |           16 | AM Nayar
+   392241 |           23 | RP Singh
+   392242 |           25 | V Sehwag
+   392243 |           15 | MS Gony
+   392243 |           15 | SK Raina
+   392244 |           20 | P Kumar
+   419111 |           18 | WPUJC Vaas
+   419112 |           26 | R Sathish
+   419113 |           18 | MF Maharoof
+   419114 |           17 | JH Kallis
+   419115 |           22 | JM Kemp
+   419115 |           22 | S Tyagi
+   419116 |           18 | A Uniyal
+   419117 |           25 | S Sreesanth
+   419118 |           17 | SE Bond
+   419119 |           18 | Harbhajan Singh
+   419120 |           20 | M Morkel
+   419121 |           21 | TM Dilshan
+   419122 |           24 | S Sreesanth
+   419123 |           17 | I Sharma
+   419124 |           16 | P Kumar
+   419125 |           20 | RP Singh
+   419127 |           16 | Z Khan
+   419128 |           24 | L Balaji
+   419129 |           18 | MM Patel
+   419130 |           19 | NLTC Perera
+   419131 |           20 | RP Singh
+   419132 |           21 | IK Pathan
+   419133 |           18 | P Kumar
+   419134 |           24 | S Narwal
+   419135 |           20 | Jaskaran Singh
+   419135 |           20 | RG Sharma
+   419136 |           18 | AB Agarkar
+   419137 |           13 | VS Malik
+   419137 |           13 | KA Pollard
+   419137 |           13 | PP Chawla
+   419137 |           13 | RS Bopara
+   419137 |           13 | R McLaren
+   419138 |           24 | P Kumar
+   419139 |           20 | SW Tait
+   419140 |           21 | PP Ojha
+   419141 |           25 | B Lee
+   419142 |           26 | S Narwal
+   419143 |           20 | Jaskaran Singh
+   419144 |           33 | RS Bopara
+   419145 |           20 | A Mishra
+   419146 |           20 | SR Watson
+   419147 |           15 | AN Ahmed
+   419148 |           20 | J Theron
+   419149 |           16 | AD Mathews
+   419150 |           23 | A Symonds
+   419151 |           15 | IK Pathan
+   419151 |           15 | B Lee
+   419152 |           16 | DE Bollinger
+   419153 |           21 | P Kumar
+   419153 |           21 | BAW Mendis
+   419154 |           15 | IK Pathan
+   419155 |           20 | SK Trivedi
+   419156 |           21 | RJ Harris
+   419157 |           25 | AB McDonald
+   419158 |           18 | DJ Hussey
+   419159 |           18 | Kamran Khan
+   419160 |           12 | L Balaji
+   419160 |           12 | A Nehra
+   419161 |           21 | RP Singh
+   419162 |           22 | Pankaj Singh
+   419162 |           22 | Pankaj Singh
+   419163 |           16 | AC Voges
+   419164 |           19 | DE Bollinger
+   419165 |           14 | A Nehra
+   419165 |           14 | UT Yadav
+   419165 |           14 | TM Dilshan
+   419166 |           13 | SC Ganguly
+   419166 |           13 | CRD Fernando
+   419167 |           18 | Harbhajan Singh
+   419168 |           17 | SB Jakati
+   419168 |           17 | SB Jakati
+   419169 |           11 | R Sharma
+   419170 |           22 | DE Bollinger
+   501203 |           17 | S Randiv
+   501204 |           18 | PP Ojha
+   501205 |           20 | RV Gomez
+   501206 |           15 | M Morkel
+   501207 |           15 | P Kumar
+   501207 |           15 | AC Thomas
+   501208 |           15 | JP Duminy
+   501208 |           15 | DW Steyn
+   501209 |           17 | SW Tait
+   501210 |           17 | A Mithun
+   501211 |           22 | P Kumar
+   501212 |           19 | WD Parnell
+   501213 |           16 | A Mishra
+   501213 |           16 | R Ninan
+   501214 |           18 | A Singh
+   501215 |           20 | R Vinay Kumar
+   501215 |           20 | AG Murtaza
+   501216 |           17 | R Ninan
+   501217 |           23 | MS Gony
+   501218 |           26 | AB Dinda
+   501219 |           21 | SW Tait
+   501220 |           15 | TG Southee
+   501221 |           17 | DT Christian
+   501223 |           13 | KA Pollard
+   501224 |           15 | B Lee
+   501225 |           25 | SK Trivedi
+   501226 |           17 | Joginder Sharma
+   501226 |           17 | SK Raina
+   501227 |           19 | Z Khan
+   501228 |           22 | RJ Harris
+   501229 |           24 | DT Christian
+   501230 |           16 | M Muralitharan
+   501231 |           13 | JA Morkel
+   501232 |           17 | AB Dinda
+   501233 |           16 | M Kartik
+   501234 |           15 | S Sreesanth
+   501235 |           15 | AB Agarkar
+   501236 |           11 | SR Watson
+   501236 |           11 | Harbhajan Singh
+   501237 |           24 | JE Taylor
+   501238 |           18 | B Akhil
+   501239 |           15 | DJ Hussey
+   501240 |           17 | M Kartik
+   501241 |           21 | I Sharma
+   501242 |           15 | P Kumar
+   501243 |           23 | UT Yadav
+   501244 |           14 | I Sharma
+   501245 |           19 | ND Doshi
+   501246 |           27 | AC Thomas
+   501247 |           22 | B Lee
+   501248 |           23 | I Malhotra
+   501249 |           22 | P Kumar
+   501250 |           13 | L Balaji
+   501251 |           20 | M Morkel
+   501252 |           37 | P Parameswaran
+   501253 |           22 | BA Bhatt
+   501254 |           18 | SK Trivedi
+   501255 |           15 | DW Steyn
+   501256 |           18 | RG Sharma
+   501257 |           13 | S Aravind
+   501257 |           13 | AL Menaria
+   501258 |           20 | AB Agarkar
+   501259 |           19 | BJ Hodge
+   501260 |           23 | JD Unadkat
+   501261 |           23 | MM Patel
+   501262 |           25 | S Sriram
+   501263 |           19 | SW Tait
+   501263 |           19 | JDP Oram
+   501264 |           17 | MR Marsh
+   501265 |           30 | JJ van der Wath
+   501266 |           19 | DJ Bravo
+   501267 |           15 | AC Thomas
+   501268 |           15 | SL Malinga
+   501268 |           15 | Harbhajan Singh
+   501268 |           15 | A Singh
+   501269 |           20 | PP Chawla
+   501271 |           18 | DE Bollinger
+   501271 |           18 | SK Raina
+   501272 |           23 | L Balaji
+   501273 |           23 | A Mithun
+   501274 |           17 | YK Pathan
+   501275 |           27 | AN Ahmed
+   501276 |           18 | S Aravind
+   501276 |           18 | J Syed Mohammad
+   548311 |           16 | RA Jadeja
+   548312 |           17 | M de Lange
+   548313 |           12 | JEC Franklin
+   548314 |           18 | PP Chawla
+   548315 |           19 | IK Pathan
+   548316 |           23 | MS Gony
+   548317 |           19 | A Singh
+   548318 |           27 | Bipul Sharma
+   548318 |           27 | Harmeet Singh
+   548319 |           21 | DT Christian
+   548320 |           15 | HV Patel
+   548321 |           14 | IK Pathan
+   548322 |           23 | J Botha
+   548323 |           28 | V Kohli
+   548324 |           12 | AD Mascarenhas
+   548325 |           16 | R Bhatia
+   548326 |           21 | JP Duminy
+   548327 |           18 | A Nehra
+   548328 |           19 | JH Kallis
+   548329 |           24 | S Aravind
+   548329 |           24 | R Vinay Kumar
+   548330 |           17 | AB Agarkar
+   548331 |           18 | Pankaj Singh
+   548331 |           18 | A Singh
+   548332 |           31 | R Sharma
+   548333 |           15 | P Kumar
+   548334 |           20 | A Ashish Reddy
+   548335 |           18 | DE Bollinger
+   548335 |           18 | MN Samuels
+   548336 |           17 | P Awana
+   548337 |           22 | RA Jadeja
+   548338 |           23 | S Nadeem
+   548339 |           21 | P Kumar
+   548340 |           13 | YK Pathan
+   548341 |           21 | SK Trivedi
+   548342 |           15 | A Nehra
+   548344 |           27 | PP Chawla
+   548346 |           19 | R Sharma
+   548347 |           23 | KA Pollard
+   548348 |           17 | SB Jakati
+   548349 |           23 | R Bhatia
+   548350 |           20 | A Singh
+   548351 |           14 | A Mishra
+   548352 |           11 | B Lee
+   548352 |           11 | Iqbal Abdulla
+   548352 |           11 | VY Mahesh
+   548352 |           11 | DJ Bravo
+   548352 |           11 | B Lee
+   548352 |           11 | B Lee
+   548353 |           25 | SC Ganguly
+   548353 |           25 | A Nehra
+   548354 |           18 | IK Pathan
+   548355 |           19 | P Awana
+   548356 |           17 | AB Dinda
+   548357 |           21 | V Pratap Singh
+   548358 |           19 | AB Dinda
+   548358 |           19 | YK Pathan
+   548359 |           19 | P Awana
+   548360 |           24 | MM Patel
+   548361 |           23 | DW Steyn
+   548362 |           17 | PJ Sangwan
+   548362 |           17 | B Lee
+   548363 |           16 | M Kartik
+   548363 |           16 | A Nehra
+   548363 |           16 | AA Chavan
+   548364 |           18 | V Pratap Singh
+   548365 |           22 | PP Ojha
+   548366 |           18 | DJ Bravo
+   548366 |           18 | SR Watson
+   548367 |           25 | B Kumar
+   548368 |           19 | R Bhatia
+   548369 |           13 | M Morkel
+   548369 |           13 | BW Hilfenhaus
+   548370 |           16 | M Kartik
+   548371 |           21 | A Mishra
+   548372 |           24 | MM Patel
+   548373 |           18 | M de Lange
+   548374 |           15 | PP Chawla
+   548374 |           15 | P Awana
+   548375 |           14 | Harbhajan Singh
+   548376 |           22 | VY Mahesh
+   548377 |           22 | P Negi
+   548378 |           14 | J Botha
+   548379 |           23 | P Awana
+   548380 |           20 | MJ Clarke
+   548381 |           24 | MS Gony
+   548382 |           22 | Harbhajan Singh
+   548383 |           21 | VR Aaron
+   548384 |           19 | Harbhajan Singh
+   548384 |           19 | DS Kulkarni
+   548385 |           25 | VR Aaron
+   548386 |           20 | JA Morkel
+   598003 |           15 | IK Pathan
+   598004 |           24 | DT Christian
+   598005 |           15 | MN Samuels
+   598006 |           19 | J Botha
+   598007 |           17 | KA Pollard
+   598008 |           21 | AB Dinda
+   598010 |           18 | SP Narine
+   598011 |           22 | IK Pathan
+   598012 |           16 | R Sathish
+   598013 |           22 | R McLaren
+   598014 |           21 | S Sreesanth
+   598015 |           17 | I Sharma
+   598016 |           21 | MR Marsh
+   598017 |           20 | CH Morris
+   598018 |           22 | NLTC Perera
+   598019 |           16 | KK Cooper
+   598020 |           16 | DP Nannes
+   598021 |           23 | SP Narine
+   598023 |           14 | AB Dinda
+   598024 |           19 | MG Johnson
+   598025 |           19 | M Morkel
+   598026 |           21 | Azhar Mahmood
+   598027 |           15 | JH Kallis
+   598028 |           15 | SW Tait
+   598028 |           15 | SK Trivedi
+   598029 |           17 | JJ Bumrah
+   598029 |           17 | MM Patel
+   598030 |           20 | P Kumar
+   598031 |           18 | RA Jadeja
+   598032 |           29 | AJ Finch
+   598033 |           19 | Azhar Mahmood
+   598034 |           26 | Harbhajan Singh
+   598035 |           17 | MM Sharma
+   598036 |           18 | L Balaji
+   598037 |           20 | I Sharma
+   598038 |           19 | R Vinay Kumar
+   598039 |           21 | DP Nannes
+   598040 |           21 | KW Richardson
+   598041 |           22 | JP Faulkner
+   598042 |           27 | DJ Hussey
+   598043 |           17 | AB Dinda
+   598044 |           16 | NLTC Perera
+   598045 |           16 | A Nehra
+   598046 |           19 | SK Raina
+   598047 |           26 | AB Dinda
+   598048 |           15 | Iqbal Abdulla
+   598049 |           11 | UT Yadav
+   598050 |           22 | MS Gony
+   598051 |           20 | MG Johnson
+   598052 |           21 | AD Mathews
+   598053 |           21 | A Mishra
+   598054 |           17 | SW Tait
+   598054 |           17 | M Morkel
+   598055 |           25 | R McLaren
+   598056 |           25 | I Sharma
+   598057 |           14 | A Chandila
+   598058 |           17 | AD Mathews
+   598059 |           24 | UT Yadav
+   598060 |           14 | PP Ojha
+   598061 |           18 | A Mishra
+   598062 |           15 | A Mithun
+   598063 |           23 | R Ashwin
+   598064 |           19 | IK Pathan
+   598065 |           29 | NLTC Perera
+   598066 |           18 | L Balaji
+   598067 |           18 | A Nehra
+   598068 |           16 | PP Ojha
+   598069 |           26 | RP Singh
+   598070 |           14 | KK Cooper
+   598070 |           14 | SR Watson
+   598070 |           14 | NLTC Perera
+   598071 |           20 | SL Malinga
+   598072 |           24 | UT Yadav
+   598073 |           20 | JO Holder
+   598074 |           16 | Iqbal Abdulla
+   598075 |           19 | SL Malinga
+   598076 |           18 | KV Sharma
+   598077 |           18 | SL Malinga
+   598078 |           18 | KA Pollard
+   729284 |           20 | PP Ojha
+   729286 |           20 | R Sharma
+   729288 |           22 | P Negi
+   729290 |           13 | JP Faulkner
+   729290 |           13 | DW Steyn
+   729292 |           18 | JA Morkel
+   729294 |           21 | M Morkel
+   729296 |           27 | DS Kulkarni
+   729298 |           16 | JD Unadkat
+   729300 |           25 | A Mishra
+   729302 |           19 | JP Faulkner
+   729304 |           16 | MA Starc
+   729306 |           21 | JD Unadkat
+   729308 |           17 | Z Khan
+   729310 |           12 | TG Southee
+   729312 |           14 | SP Narine
+   729314 |           17 | RG Sharma
+   729316 |           20 | BW Hilfenhaus
+   729318 |           20 | GJ Maxwell
+   729322 |           27 | A Mishra
+   733976 |           19 | BW Hilfenhaus
+   733978 |           20 | AR Patel
+   733978 |           20 | KA Pollard
+   733978 |           20 | MG Johnson
+   733978 |           20 | Z Khan
+   733980 |           18 | KW Richardson
+   733982 |           24 | DW Steyn
+   733984 |           19 | R Vinay Kumar
+   733986 |           18 | JD Unadkat
+   733986 |           18 | MM Sharma
+   733988 |           28 | P Suyal
+   733990 |           17 | SP Narine
+   733992 |           23 | MM Sharma
+   733994 |           12 | JP Faulkner
+   733996 |           26 | HV Patel
+   733998 |           15 | MC Henriques
+   734000 |           18 | IC Pandey
+   734002 |           19 | MG Johnson
+   734004 |           23 | AB Dinda
+   734006 |           18 | KA Pollard
+   734008 |           19 | V Shankar
+   734010 |           27 | R Shukla
+   734012 |           26 | Sandeep Sharma
+   734012 |           26 | Sandeep Sharma
+   734014 |           17 | PP Chawla
+   734016 |           17 | S Kaul
+   734016 |           17 | MK Tiwary
+   734018 |           16 | S Badree
+   734020 |           15 | A Mishra
+   734022 |           18 | K Santokie
+   734024 |           18 | BE Hendricks
+   734026 |           19 | KV Sharma
+   734026 |           19 | DJG Sammy
+   734028 |           19 | PP Chawla
+   734030 |           15 | Sandeep Sharma
+   734032 |           24 | YS Chahal
+   734034 |           24 | DW Steyn
+   734036 |           18 | S Kaul
+   734038 |           23 | JP Faulkner
+   734040 |           22 | Yuvraj Singh
+   734042 |           26 | DW Steyn
+   734044 |           18 | JDS Neesham
+   734046 |           19 | DS Kulkarni
+   734046 |           19 | JP Faulkner
+   734046 |           19 | S Gopal
+   734048 |           21 | Shakib Al Hasan
+   734050 |           20 | PP Ojha
+   734052 |           33 | P Awana
+   734054 |           20 | M Morkel
+   829710 |           21 | UT Yadav
+   829712 |           17 | DJ Bravo
+   829714 |           20 | MG Johnson
+   829716 |           23 | I Sharma
+   829718 |           17 | SP Narine
+   829720 |           19 | AD Mathews
+   829722 |           20 | Anureet Singh
+   829724 |           20 | HV Patel
+   829724 |           20 | AN Ahmed
+   829726 |           20 | TG Southee
+   829728 |           19 | PJ Cummins
+   829730 |           19 | A Mishra
+   829732 |           12 | CH Morris
+   829732 |           12 | P Kumar
+   829732 |           12 | JP Faulkner
+   829732 |           12 | TA Boult
+   829732 |           12 | TG Southee
+   829734 |           26 | RA Jadeja
+   829736 |           18 | DJ Muthuswami
+   829738 |           19 | AR Patel
+   829740 |           17 | PV Tambe
+   829742 |           24 | SL Malinga
+   829742 |           24 | AN Ahmed
+   829744 |           20 | SP Narine
+   829748 |           15 | PP Chawla
+   829750 |           19 | MM Sharma
+   829750 |           19 | YS Chahal
+   829752 |           20 | KA Pollard
+   829754 |           16 | SR Watson
+   829756 |           18 | Harbhajan Singh
+   829758 |           22 | Karanveer Singh
+   829762 |           14 | DJ Muthuswami
+   829762 |           14 | A Mishra
+   829764 |           16 | Sandeep Sharma
+   829766 |           18 | Z Khan
+   829770 |           15 | UT Yadav
+   829772 |           19 | SN Thakur
+   829774 |           20 | SR Watson
+   829776 |           18 | UT Yadav
+   829776 |           18 | PP Chawla
+   829778 |           22 | MM Sharma
+   829780 |           18 | MG Johnson
+   829782 |           19 | GS Sandhu
+   829784 |           15 | Iqbal Abdulla
+   829784 |           15 | YS Chahal
+   829786 |           21 | J Botha
+   829788 |           16 | MJ McClenaghan
+   829790 |           24 | Sandeep Sharma
+   829792 |           22 | P Kumar
+   829794 |           25 | P Negi
+   829796 |           24 | AR Patel
+   829798 |           22 | P Kumar
+   829800 |           25 | JJ Bumrah
+   829802 |           17 | JP Faulkner
+   829804 |           22 | I Sharma
+   829806 |           20 | IC Pandey
+   829808 |           20 | S Aravind
+   829810 |           18 | UT Yadav
+   829812 |           24 | B Kumar
+   829814 |           17 | Anureet Singh
+   829816 |           20 | JP Faulkner
+   829820 |           22 | KV Sharma
+   829822 |           17 | MJ McClenaghan
+   829824 |           19 | Ankit Sharma
+   829826 |           19 | SK Raina
+   829828 |           23 | A Nehra
+   980906 |           20 | JJ Bumrah
+   980908 |           16 | Z Khan
+   980910 |           15 | MP Stoinis
+   980912 |           28 | B Kumar
+   980914 |           18 | J Suchith
+   980914 |           18 | AD Russell
+   980916 |           20 | M Ashwin
+   980916 |           20 | DJ Bravo
+   980918 |           17 | MG Johnson
+   980920 |           14 | KV Sharma
+   980920 |           14 | Mustafizur Rahman
+   980922 |           17 | JP Faulkner
+   980924 |           15 | NLTC Perera
+   980924 |           15 | KJ Abbott
+   980926 |           21 | Z Khan
+   980928 |           26 | Bipul Sharma
+   980930 |           18 | AD Russell
+   980932 |           19 | VR Aaron
+   980934 |           18 | P Kumar
+   980936 |           25 | HV Patel
+   980938 |           19 | P Negi
+   980940 |           18 | Sandeep Sharma
+   980942 |           25 | KW Richardson
+   980944 |           17 | Ankit Sharma
+   980944 |           17 | M Morkel
+   980946 |           16 | P Sahu
+   980948 |           17 | Bipul Sharma
+   980950 |           21 | DR Smith
+   980952 |           23 | R Sathish
+   980954 |           24 | JA Morkel
+   980956 |           22 | CR Brathwaite
+   980958 |           19 | MC Henriques
+   980958 |           19 | KW Richardson
+   980960 |           17 | RA Jadeja
+   980962 |           20 | KH Pandya
+   980964 |           24 | SR Watson
+   980966 |           16 | SK Raina
+   980968 |           17 | GB Hogg
+   980970 |           20 | Mohammed Shami
+   980972 |           16 | PJ Sangwan
+   980972 |           16 | P Kumar
+   980974 |           20 | NLTC Perera
+   980976 |           17 | MP Stoinis
+   980978 |           14 | KA Pollard
+   980978 |           14 | MJ McClenaghan
+   980978 |           14 | TG Southee
+   980980 |           17 | M Morkel
+   980982 |           20 | MP Stoinis
+   980984 |           15 | B Kumar
+   980984 |           15 | AB Dinda
+   980986 |           23 | KA Pollard
+   980988 |           17 | J Yadav
+   980990 |           17 | KC Cariappa
+   980990 |           17 | AR Patel
+   980992 |           30 | DJ Bravo
+   980992 |           30 | S Kaushik
+   980994 |           22 | R Ashwin
+   980996 |           19 | MM Sharma
+   980998 |           23 | Imran Tahir
+   981000 |           17 | AD Russell
+   981002 |           22 | NLTC Perera
+   981004 |           19 | KC Cariappa
+   981004 |           19 | KJ Abbott
+   981006 |           16 | AS Rajpoot
+   981008 |           15 | NM Coulter-Nile
+   981010 |           23 | AR Patel
+   981012 |           19 | JJ Bumrah
+   981014 |           19 | KV Sharma
+   981016 |           14 | A Mishra
+   981016 |           14 | YS Chahal
+   981018 |           21 | SR Watson
+   981020 |           15 | JO Holder
+   981022 |           19 | DR Smith
+   981022 |           19 | DJ Bravo
+   981024 |           24 | SR Watson
+(672 rows)
+
+     player_name      | number 
+----------------------+--------
+ G Gambhir            |     15
+ S Dhawan             |     13
+ M Vijay              |     11
+ Y Venugopal Rao      |     11
+ PA Patel             |     10
+ P Kumar              |     10
+ YK Pathan            |     10
+ A Mishra             |      9
+ IK Pathan            |      9
+ RG Sharma            |      9
+ SK Raina             |      9
+ AM Nayar             |      8
+ AT Rayudu            |      8
+ AM Rahane            |      7
+ DPMD Jayawardene     |      7
+ F du Plessis         |      7
+ KD Karthik           |      7
+ AB de Villiers       |      6
+ DA Warner            |      6
+ DJ Hussey            |      6
+ EJG Morgan           |      6
+ MS Dhoni             |      6
+ R Dravid             |      6
+ RV Uthappa           |      6
+ SA Asnodkar          |      6
+ SL Malinga           |      6
+ SR Tendulkar         |      6
+ SR Watson            |      6
+ V Kohli              |      6
+ V Sehwag             |      6
+ CL White             |      5
+ DJ Hooda             |      5
+ Harbhajan Singh      |      5
+ JH Kallis            |      5
+ JP Duminy            |      5
+ MK Pandey            |      5
+ NV Ojha              |      5
+ OA Shah              |      5
+ PP Chawla            |      5
+ R Bhatia             |      5
+ SK Warne             |      5
+ STR Binny            |      5
+ WP Saha              |      5
+ Yuvraj Singh         |      5
+ AR Patel             |      4
+ A Symonds            |      4
+ BB McCullum          |      4
+ FY Fazal             |      4
+ GJ Bailey            |      4
+ JA Morkel            |      4
+ K Goel               |      4
+ MEK Hussey           |      4
+ MS Bisla             |      4
+ M Vohra              |      4
+ P Dogra              |      4
+ PP Ojha              |      4
+ R Ashwin             |      4
+ RP Singh             |      4
+ R Sharma             |      4
+ R Vinay Kumar        |      4
+ S Badrinath          |      4
+ TM Dilshan           |      4
+ VVS Laxman           |      4
+ AA Jhunjhunwala      |      3
+ AB Agarkar           |      3
+ AD Mathews           |      3
+ AD Russell           |      3
+ AJ Finch             |      3
+ Azhar Mahmood        |      3
+ Bipul Sharma         |      3
+ B Lee                |      3
+ DR Smith             |      3
+ DW Steyn             |      3
+ HH Gibbs             |      3
+ Ishan Kishan         |      3
+ KA Pollard           |      3
+ KM Jadhav            |      3
+ L Ronchi             |      3
+ Mandeep Singh        |      3
+ MK Tiwary            |      3
+ ML Hayden            |      3
+ P Negi               |      3
+ RA Jadeja            |      3
+ R Sathish            |      3
+ SE Marsh             |      3
+ SPD Smith            |      3
+ S Sohal              |      3
+ SS Tiwary            |      3
+ TL Suman             |      3
+ WD Parnell           |      3
+ A Ashish Reddy       |      2
+ AB Dinda             |      2
+ AC Gilchrist         |      2
+ A Chopra             |      2
+ AD Mascarenhas       |      2
+ AS Raut              |      2
+ BJ Hodge             |      2
+ B Kumar              |      2
+ CA Pujara            |      2
+ CH Morris            |      2
+ C Munro              |      2
+ DA Miller            |      2
+ DB Das               |      2
+ DJ Bravo             |      2
+ DL Vettori           |      2
+ DS Kulkarni          |      2
+ Gurkeerat Singh      |      2
+ Harmeet Singh        |      2
+ J Botha              |      2
+ JD Ryder             |      2
+ JO Holder            |      2
+ J Yadav              |      2
+ Kamran Akmal         |      2
+ KC Sangakkara        |      2
+ KP Pietersen         |      2
+ KV Sharma            |      2
+ LA Carseldine        |      2
+ L Balaji             |      2
+ LRPL Taylor          |      2
+ LR Shukla            |      2
+ MA Starc             |      2
+ MD Mishra            |      2
+ MF Maharoof          |      2
+ MJ Lumb              |      2
+ M Kaif               |      2
+ M Kartik             |      2
+ M Manhas             |      2
+ MM Patel             |      2
+ MM Sharma            |      2
+ M Muralitharan       |      2
+ MN Samuels           |      2
+ MS Gony              |      2
+ PD Collingwood       |      2
+ RJ Peterson          |      2
+ R McLaren            |      2
+ RN ten Doeschate     |      2
+ RR Pant              |      2
+ SB Bangar            |      2
+ SC Ganguly           |      2
+ Shakib Al Hasan      |      2
+ SM Katich            |      2
+ S Nadeem             |      2
+ SP Narine            |      2
+ SV Samson            |      2
+ TG Southee           |      2
+ UT Khawaja           |      2
+ VR Aaron             |      2
+ WPUJC Vaas           |      2
+ Z Khan               |      2
+ AA Chavan            |      1
+ AA Noffke            |      1
+ AC Thomas            |      1
+ A Kumble             |      1
+ AL Menaria           |      1
+ A Nehra              |      1
+ A Nel                |      1
+ AP Tare              |      1
+ BA Bhatt             |      1
+ B Akhil              |      1
+ BB Samantray         |      1
+ BCJ Cutting          |      1
+ BMAJ Mendis          |      1
+ CH Gayle             |      1
+ CJ Anderson          |      1
+ CJ Ferguson          |      1
+ CJ Jordan            |      1
+ CM Gautam            |      1
+ C Nanda              |      1
+ DB Ravi Teja         |      1
+ DH Yagnik            |      1
+ DJG Sammy            |      1
+ DJ Harris            |      1
+ DJ Muthuswami        |      1
+ D Salunkhe           |      1
+ DT Christian         |      1
+ DT Patil             |      1
+ GB Hogg              |      1
+ GH Vihari            |      1
+ H Das                |      1
+ HM Amla              |      1
+ HV Patel             |      1
+ Imran Tahir          |      1
+ Iqbal Abdulla        |      1
+ J Arunkumar          |      1
+ JE Taylor            |      1
+ Joginder Sharma      |      1
+ JR Hopes             |      1
+ KH Pandya            |      1
+ KK Nair              |      1
+ KL Rahul             |      1
+ KP Appanna           |      1
+ LA Pomersbach        |      1
+ LJ Wright            |      1
+ MC Henriques         |      1
+ MC Juneja            |      1
+ MJ Clarke            |      1
+ M Morkel             |      1
+ Mohammad Asif        |      1
+ MR Marsh             |      1
+ MV Boucher           |      1
+ NLTC Perera          |      1
+ NM Coulter-Nile      |      1
+ PA Reddy             |      1
+ PC Valthaty          |      1
+ PJ Sangwan           |      1
+ P Sahu               |      1
+ PV Tambe             |      1
+ Q de Kock            |      1
+ R Bishnoi            |      1
+ R Dhawan             |      1
+ RE van der Merwe     |      1
+ RR Powar             |      1
+ RR Sarwan            |      1
+ RS Bopara            |      1
+ RT Ponting           |      1
+ SA Abbott            |      1
+ Sachin Baby          |      1
+ SB Joshi             |      1
+ SB Wagh              |      1
+ SD Chitnis           |      1
+ S Gopal              |      1
+ Shoaib Ahmed         |      1
+ S Ladda              |      1
+ SMSM Senanayake      |      1
+ SN Khan              |      1
+ SP Fleming           |      1
+ SP Goswami           |      1
+ S Sreesanth          |      1
+ SS Shaikh            |      1
+ ST Jayasuriya        |      1
+ S Tyagi              |      1
+ Sunny Singh          |      1
+ T Henderson          |      1
+ T Kohli              |      1
+ TM Head              |      1
+ T Taibu              |      1
+ T Thushara           |      1
+ Umar Gul             |      1
+ VRV Singh            |      1
+ VS Yeligati          |      1
+ WA Mota              |      1
+ W Jaffer             |      1
+ Y Nagar              |      1
+ AA Bilakhia          |      0
+ AA Kazi              |      0
+ AB Barath            |      0
+ Abdur Razzak         |      0
+ AB McDonald          |      0
+ AC Blizzard          |      0
+ A Chandila           |      0
+ AC Voges             |      0
+ AD Nath              |      0
+ A Flintoff           |      0
+ AF Milne             |      0
+ AG Murtaza           |      0
+ AG Paunikar          |      0
+ A Mithun             |      0
+ AM Salvi             |      0
+ A Mukund             |      0
+ AN Ahmed             |      0
+ Anand Rajan          |      0
+ AN Ghosh             |      0
+ Anirudh Singh        |      0
+ Ankit Sharma         |      0
+ Anureet Singh        |      0
+ AP Dole              |      0
+ AP Majumdar          |      0
+ A Singh              |      0
+ AS Rajpoot           |      0
+ AUK Pathan           |      0
+ A Uniyal             |      0
+ A Zampa              |      0
+ BAW Mendis           |      0
+ BB Sran              |      0
+ B Chipli             |      0
+ BE Hendricks         |      0
+ B Geeves             |      0
+ BJ Haddin            |      0
+ BJ Rohrer            |      0
+ B Laughlin           |      0
+ BR Dunk              |      0
+ B Sumanth            |      0
+ BW Hilfenhaus        |      0
+ CA Ingram            |      0
+ CA Lynn              |      0
+ C Ganapathy          |      0
+ CJ McKay             |      0
+ CK Kapugedera        |      0
+ CK Langeveldt        |      0
+ C Madan              |      0
+ CR Brathwaite        |      0
+ CRD Fernando         |      0
+ DAJ Bracewell        |      0
+ D du Preez           |      0
+ DE Bollinger         |      0
+ DJ Jacobs            |      0
+ DJ Thornely          |      0
+ D Kalyankrishna      |      0
+ DL Chahar            |      0
+ DNT Zoysa            |      0
+ DP Nannes            |      0
+ DP Vijaykumar        |      0
+ DR Martyn            |      0
+ DS Lehmann           |      0
+ D Wiese              |      0
+ ER Dwivedi           |      0
+ F Behardien          |      0
+ FH Edwards           |      0
+ Gagandeep Singh      |      0
+ GC Smith             |      0
+ GD McGrath           |      0
+ GJ Maxwell           |      0
+ GR Napier            |      0
+ GS Sandhu            |      0
+ Harpreet Singh       |      0
+ HH Pandya            |      0
+ IC Pandey            |      0
+ I Malhotra           |      0
+ IR Jaggi             |      0
+ I Sharma             |      0
+ Jaskaran Singh       |      0
+ JC Buttler           |      0
+ JDP Oram             |      0
+ JDS Neesham          |      0
+ JD Unadkat           |      0
+ JEC Franklin         |      0
+ JJ Bumrah            |      0
+ JJ van der Wath      |      0
+ JM Kemp              |      0
+ JP Faulkner          |      0
+ J Suchith            |      0
+ J Syed Mohammad      |      0
+ J Theron             |      0
+ JW Hastings          |      0
+ KAJ Roach            |      0
+ Kamran Khan          |      0
+ Karanveer Singh      |      0
+ KB Arun Karthik      |      0
+ KC Cariappa          |      0
+ KH Devdhar           |      0
+ KJ Abbott            |      0
+ KK Cooper            |      0
+ KMDN Kulasekara      |      0
+ K Santokie           |      0
+ KS Williamson        |      0
+ Kuldeep Yadav        |      0
+ K Upadhyay           |      0
+ KW Richardson        |      0
+ L Ablish             |      0
+ LMP Simmons          |      0
+ LPC Silva            |      0
+ MA Agarwal           |      0
+ MA Khote             |      0
+ Mashrafe Mortaza     |      0
+ M Ashwin             |      0
+ MB Parmar            |      0
+ M de Lange           |      0
+ MDKJ Perera          |      0
+ MG Johnson           |      0
+ MG Neser             |      0
+ Misbah-ul-Haq        |      0
+ MJ Guptill           |      0
+ MJ McClenaghan       |      0
+ M Klinger            |      0
+ M Ntini              |      0
+ MN van Wyk           |      0
+ Mohammad Ashraful    |      0
+ Mohammad Hafeez      |      0
+ Mohammed Shami       |      0
+ MP Stoinis           |      0
+ M Rawat              |      0
+ MS Wade              |      0
+ Mustafizur Rahman    |      0
+ ND Doshi             |      0
+ NJ Maddinson         |      0
+ NJ Rimmington        |      0
+ NK Patel             |      0
+ NL McCullum          |      0
+ N Rana               |      0
+ N Saini              |      0
+ NS Naik              |      0
+ P Amarnath           |      0
+ Pankaj Singh         |      0
+ Parvez Rasool        |      0
+ P Awana              |      0
+ P Dharmani           |      0
+ PJ Cummins           |      0
+ PM Sarvesh Kumar     |      0
+ P Parameswaran       |      0
+ P Prasanth           |      0
+ PR Shah              |      0
+ PSP Handscomb        |      0
+ P Suyal              |      0
+ RA Shaikh            |      0
+ RE Levi              |      0
+ RG More              |      0
+ RJ Harris            |      0
+ RJ Quiney            |      0
+ R Ninan              |      0
+ R Rampaul            |      0
+ RR Bhatkal           |      0
+ RR Bose              |      0
+ RR Raje              |      0
+ RR Rossouw           |      0
+ RS Gavaskar          |      0
+ R Shukla             |      0
+ RS Sodhi             |      0
+ R Tewatia            |      0
+ RV Gomez             |      0
+ RV Pawar             |      0
+ RW Price             |      0
+ Salman Butt          |      0
+ Sandeep Sharma       |      0
+ S Anirudha           |      0
+ S Aravind            |      0
+ SA Yadav             |      0
+ S Badree             |      0
+ SB Jakati            |      0
+ SB Styris            |      0
+ S Chanderpaul        |      0
+ SE Bond              |      0
+ Shahid Afridi        |      0
+ Shivam Sharma        |      0
+ Shoaib Akhtar        |      0
+ Shoaib Malik         |      0
+ SJ Srivastava        |      0
+ S Kaul               |      0
+ S Kaushik            |      0
+ SK Trivedi           |      0
+ SM Boland            |      0
+ SM Harwood           |      0
+ SM Pollock           |      0
+ S Narwal             |      0
+ SN Thakur            |      0
+ Sohail Tanvir        |      0
+ S Rana               |      0
+ S Randiv             |      0
+ SS Iyer              |      0
+ SS Mundhe            |      0
+ S Sriram             |      0
+ SS Sarkar            |      0
+ Sunny Gupta          |      0
+ S Vidyut             |      0
+ Swapnil Singh        |      0
+ SW Billings          |      0
+ SW Tait              |      0
+ TA Boult             |      0
+ TD Paine             |      0
+ T Mishra             |      0
+ TM Srivastava        |      0
+ TP Sudhindra         |      0
+ TR Birt              |      0
+ T Shamsi             |      0
+ UA Birla             |      0
+ UBT Chand            |      0
+ U Kaul               |      0
+ UT Yadav             |      0
+ VH Zol               |      0
+ V Pratap Singh       |      0
+ V Shankar            |      0
+ VS Malik             |      0
+ VY Mahesh            |      0
+ X Thalaivan Sargunam |      0
+ YA Abdulla           |      0
+ Yashpal Singh        |      0
+ Y Gnaneswara Rao     |      0
+ Younis Khan          |      0
+ YS Chahal            |      0
+ YV Takawale          |      0
+(469 rows)
+
+       out_type        | number 
+-----------------------+--------
+ caught                |   3895
+ bowled                |   1234
+ run out               |    677
+ lbw                   |    393
+ stumped               |    219
+ caught and bowled     |    184
+ hit wicket            |      8
+ retired hurt          |      8
+ obstructing the field |      1
+(9 rows)
+
+            name             | number 
+-----------------------------+--------
+ Chennai Super Kings         |     80
+ Deccan Chargers             |     29
+ Delhi Daredevils            |     55
+ Gujarat Lions               |      7
+ Kings XI Punjab             |     62
+ Kochi Tuskers Kerala        |      6
+ Kolkata Knight Riders       |     69
+ Mumbai Indians              |     77
+ Pune Warriors               |     14
+ Rajasthan Royals            |     61
+ Rising Pune Supergiants     |      6
+ Royal Challengers Bangalore |     71
+ Sunrisers Hyderabad         |     31
+(13 rows)
+
+         venue         
+-----------------------
+ M Chinnaswamy Stadium
+(1 row)
+
+                        venue                        
+-----------------------------------------------------
+ Eden Gardens
+ M Chinnaswamy Stadium
+ Feroz Shah Kotla
+ Rajiv Gandhi International Stadium Uppal
+ Wankhede Stadium
+ Sawai Mansingh Stadium
+ Punjab Cricket Association Stadium Mohali
+ MA Chidambaram Stadium Chepauk
+ Dr DY Patil Sports Academy
+ SuperSport Park
+ Kingsmead
+ Subrata Roy Sahara Stadium
+ Brabourne Stadium
+ Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium
+ JSCA International Stadium Complex
+ Maharashtra Cricket Association Stadium
+ New Wanderers Stadium
+ Sardar Patel Stadium Motera
+ Dubai International Cricket Stadium
+ Himachal Pradesh Cricket Association Stadium
+ Punjab Cricket Association IS Bindra Stadium Mohali
+ Saurashtra Cricket Association Stadium
+ Shaheed Veer Narayan Singh International Stadium
+ Sharjah Cricket Stadium
+ St George's Park
+ Barabati Stadium
+ Sheikh Zayed Stadium
+ De Beers Diamond Oval
+ Green Park
+ Holkar Cricket Stadium
+ Nehru Stadium
+ Newlands
+ Buffalo Park
+ OUTsurance Oval
+ Vidarbha Cricket Association Stadium Jamtha
+(35 rows)
+
+ player_name  
+--------------
+ AC Gilchrist
+(1 row)
+
+  player_name  |            name             
+---------------+-----------------------------
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Deccan Chargers
+ AC Gilchrist  | Kings XI Punjab
+ AC Gilchrist  | Kings XI Punjab
+ AC Gilchrist  | Kings XI Punjab
+ AC Gilchrist  | Kings XI Punjab
+ AC Gilchrist  | Kings XI Punjab
+ AC Gilchrist  | Kings XI Punjab
+ AC Gilchrist  | Kings XI Punjab
+ AC Gilchrist  | Kings XI Punjab
+ AC Gilchrist  | Kings XI Punjab
+ AC Gilchrist  | Kings XI Punjab
+ AC Gilchrist  | Kings XI Punjab
+ AC Gilchrist  | Kings XI Punjab
+ AC Gilchrist  | Kings XI Punjab
+ AC Gilchrist  | Kings XI Punjab
+ AC Gilchrist  | Kings XI Punjab
+ AC Gilchrist  | Kings XI Punjab
+ AC Gilchrist  | Kings XI Punjab
+ BB McCullum   | Kolkata Knight Riders
+ KC Sangakkara | Deccan Chargers
+ KC Sangakkara | Deccan Chargers
+ KC Sangakkara | Deccan Chargers
+ KC Sangakkara | Deccan Chargers
+ KC Sangakkara | Deccan Chargers
+ KC Sangakkara | Kings XI Punjab
+ KC Sangakkara | Kings XI Punjab
+ KC Sangakkara | Sunrisers Hyderabad
+ KD Karthik    | Delhi Daredevils
+ KD Karthik    | Delhi Daredevils
+ KD Karthik    | Royal Challengers Bangalore
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Chennai Super Kings
+ MS Dhoni      | Rising Pune Supergiants
+ MS Dhoni      | Rising Pune Supergiants
+ MS Dhoni      | Rising Pune Supergiants
+ MS Dhoni      | Rising Pune Supergiants
+ MS Dhoni      | Rising Pune Supergiants
+(128 rows)
+
+   player_name    | runs_scored 
+------------------+-------------
+ SK Raina         |        4083
+ V Kohli          |        3987
+ RG Sharma        |        3874
+ G Gambhir        |        3589
+ RV Uthappa       |        3390
+ CH Gayle         |        3356
+ DA Warner        |        3339
+ MS Dhoni         |        3270
+ AB de Villiers   |        3161
+ S Dhawan         |        3082
+ YK Pathan        |        2719
+ V Sehwag         |        2702
+ AM Rahane        |        2529
+ KD Karthik       |        2515
+ M Vijay          |        2490
+ SR Watson        |        2469
+ BB McCullum      |        2431
+ JH Kallis        |        2414
+ SR Tendulkar     |        2329
+ AT Rayudu        |        2325
+ Yuvraj Singh     |        2281
+ R Dravid         |        2170
+ SE Marsh         |        2148
+ DR Smith         |        2146
+ AC Gilchrist     |        2069
+ MEK Hussey       |        1977
+ KA Pollard       |        1959
+ JP Duminy        |        1926
+ PA Patel         |        1868
+ MK Pandey        |        1800
+ DPMD Jayawardene |        1771
+ KC Sangakkara    |        1656
+ NV Ojha          |        1466
+ S Badrinath      |        1439
+ DA Miller        |        1426
+ BJ Hodge         |        1395
+ MK Tiwary        |        1324
+ DJ Hussey        |        1322
+ AJ Finch         |        1304
+ WP Saha          |        1304
+ SC Ganguly       |        1303
+ F du Plessis     |        1287
+ DJ Bravo         |        1262
+ SPD Smith        |        1212
+ SS Tiwary        |        1205
+ TM Dilshan       |        1154
+ IK Pathan        |        1079
+ ML Hayden        |        1074
+ LRPL Taylor      |        1017
+ SV Samson        |        1015
+ KP Pietersen     |        1001
+ Y Venugopal Rao  |         985
+ A Symonds        |         974
+ JA Morkel        |         962
+ CL White         |         949
+ LMP Simmons      |         942
+ GJ Maxwell       |         917
+ Mandeep Singh    |         897
+ HH Gibbs         |         886
+ KK Nair          |         842
+ EJG Morgan       |         789
+ MS Bisla         |         788
+ Harbhajan Singh  |         783
+ MA Agarwal       |         781
+ ST Jayasuriya    |         768
+ M Vohra          |         728
+ GC Smith         |         724
+ KL Rahul         |         713
+ AD Mathews       |         691
+ TL Suman         |         676
+ GJ Bailey        |         663
+ Q de Kock        |         657
+ MC Henriques     |         648
+ JD Ryder         |         604
+ KM Jadhav        |         597
+ AD Russell       |         574
+ RS Bopara        |         530
+ OA Shah          |         506
+ PC Valthaty      |         496
+ SA Yadav         |         472
+ Shakib Al Hasan  |         468
+ SS Iyer          |         449
+ SA Asnodkar      |         423
+ JR Hopes         |         417
+ J Botha          |         409
+ MV Boucher       |         394
+ CA Pujara        |         390
+ Azhar Mahmood    |         388
+ CJ Anderson      |         379
+ DB Ravi Teja     |         375
+ S Sohal          |         368
+ Gurkeerat Singh  |         342
+ RN ten Doeschate |         326
+ AP Tare          |         321
+ JEC Franklin     |         321
+ LA Pomersbach    |         302
+ UBT Chand        |         300
+ DJG Sammy        |         295
+ CH Morris        |         285
+ VVS Laxman       |         282
+ B Chipli         |         280
+ MJ Lumb          |         278
+ DJ Hooda         |         276
+ SP Goswami       |         241
+ KH Pandya        |         237
+ SM Katich        |         237
+ AA Jhunjhunwala  |         217
+ PD Collingwood   |         203
+ RR Pant          |         198
+ Salman Butt      |         193
+ BJ Rohrer        |         179
+ MN van Wyk       |         167
+ R McLaren        |         159
+ HM Amla          |         157
+ HH Pandya        |         156
+ KS Williamson    |         155
+ MP Stoinis       |         146
+ S Vidyut         |         145
+ N Saini          |         140
+ S Anirudha       |         136
+ W Jaffer         |         130
+ Kamran Akmal     |         128
+ BB Samantray     |         125
+ NK Patel         |         121
+ AC Blizzard      |         120
+ N Rana           |         104
+ RJ Quiney        |          97
+ SW Billings      |          88
+ RE Levi          |          83
+(129 rows)
+
+ player_name  
+--------------
+ A Symonds
+ SPD Smith
+ SR Tendulkar
+ SR Watson
+ V Kohli
+ WP Saha
+ YK Pathan
+(7 rows)
+
+ match_id |                        venue                        
+----------+-----------------------------------------------------
+   335998 | MA Chidambaram Stadium Chepauk
+   336002 | Eden Gardens
+   336005 | Sawai Mansingh Stadium
+   336008 | Punjab Cricket Association Stadium Mohali
+   336026 | Wankhede Stadium
+   336030 | Eden Gardens
+   336032 | Eden Gardens
+   392189 | Newlands
+   392202 | St George's Park
+   392204 | Kingsmead
+   392208 | Buffalo Park
+   392212 | St George's Park
+   392216 | Kingsmead
+   392224 | New Wanderers Stadium
+   392226 | SuperSport Park
+   392233 | New Wanderers Stadium
+   419118 | Eden Gardens
+   419123 | Sardar Patel Stadium Motera
+   419127 | Brabourne Stadium
+   419136 | Feroz Shah Kotla
+   419144 | Eden Gardens
+   419153 | M Chinnaswamy Stadium
+   419158 | MA Chidambaram Stadium Chepauk
+   501203 | MA Chidambaram Stadium Chepauk
+   501224 | Eden Gardens
+   501227 | Eden Gardens
+   501247 | Nehru Stadium
+   501260 | M Chinnaswamy Stadium
+   501272 | Eden Gardens
+   501274 | Wankhede Stadium
+   548312 | Eden Gardens
+   548317 | Sawai Mansingh Stadium
+   548328 | Eden Gardens
+   548368 | Eden Gardens
+   548373 | Eden Gardens
+   598010 | Sawai Mansingh Stadium
+   598013 | M Chinnaswamy Stadium
+   598021 | Punjab Cricket Association Stadium Mohali
+   598027 | Eden Gardens
+   598034 | Eden Gardens
+   598039 | MA Chidambaram Stadium Chepauk
+   598045 | Shaheed Veer Narayan Singh International Stadium
+   598055 | Wankhede Stadium
+   598066 | JSCA International Stadium Complex
+   598074 | Rajiv Gandhi International Stadium Uppal
+   729294 | Dubai International Cricket Stadium
+   729312 | Sheikh Zayed Stadium
+   733976 | JSCA International Stadium Complex
+   733984 | Sardar Patel Stadium Motera
+   829718 | Eden Gardens
+   829748 | Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium
+   829770 | MA Chidambaram Stadium Chepauk
+   829776 | M Chinnaswamy Stadium
+   829810 | Wankhede Stadium
+   829816 | Brabourne Stadium
+   980914 | Eden Gardens
+   980952 | Wankhede Stadium
+   980956 | Feroz Shah Kotla
+   980980 | Eden Gardens
+   981000 | Eden Gardens
+   981006 | Green Park
+   981020 | Feroz Shah Kotla
+(62 rows)
+
+ player_name  
+--------------
+ CH Gayle
+ KP Pietersen
+ S Dhawan
+ CL White
+ SR Watson
+ AM Rahane
+ G Gambhir
+ F du Plessis
+ MEK Hussey
+ TM Dilshan
+(10 rows)
+
+ country_name 
+--------------
+ England
+ Netherlands
+ West Indies
+ South Africa
+ Australia
+(5 rows)
+
