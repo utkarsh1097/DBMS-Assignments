@@ -1,4 +1,4 @@
-README FILE.
+#README FILE.
 
 1. Files "part1.csv", "part2.sql" and "part3.txt" are the test files which were use for the Bulk Load, Multiple Inserts and JDBC method.
 
