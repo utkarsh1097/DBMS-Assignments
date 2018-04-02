@@ -42,7 +42,7 @@ select player_name, count(kind_out = 'run out' OR NULL) as number from wicket_ta
 
 SELECT * FROM ( SELECT kind_out AS out_type,COUNT(player_out) AS number FROM wicket_taken GROUP BY kind_out) AS foo ORDER BY number DESC, out_type ASC;	
 
---12-- (not sure how it worked out)
+--12-- 
 
 select name, number from (select team_id, count(man_of_the_match) as number from player_match, match where man_of_the_match = player_id and player_match.match_id = match.match_id group by team_id) as temp_table, team where temp_table.team_id = team.team_id order by name; 
 
@@ -58,7 +58,7 @@ select venue from match group by venue order by count((toss_decision = 'field' a
 
 SELECT player_name FROM player WHERE player_id IN (SELECT bowler FROM (SELECT bowler,num_out,num_runs,((num_runs)*1000)/num_out AS bowling_average FROM (SELECT bowler,COUNT(kind_out) as num_out,( SUM(COALESCE(runs_scored,0)) + SUM(COALESCE(extra_runs,0)) ) AS num_runs FROM extra_runs NATURAL FULL OUTER JOIN batsman_scored NATURAL FULL OUTER JOIN wicket_taken NATURAL FULL OUTER JOIN ball_by_ball GROUP BY bowler ) AS foo WHERE num_out > 0 ) AS foo WHERE bowling_average IN (SELECT MIN(bowling_average) AS minimum FROM (SELECT bowler,num_out,num_runs,((num_runs)*1000)/num_out AS bowling_average FROM (SELECT bowler,COUNT(kind_out) as num_out,( SUM(COALESCE(runs_scored,0)) + SUM(COALESCE(extra_runs,0)) ) AS num_runs FROM extra_runs NATURAL FULL OUTER JOIN batsman_scored NATURAL FULL OUTER JOIN wicket_taken NATURAL FULL OUTER JOIN ball_by_ball GROUP BY bowler ) AS foo WHERE num_out > 0 ) AS foo ) ) ORDER BY player_name;
 
---16-- (count = 128) (confirmed from Prakhar, confirm from someone else)
+--16-- 
 
 select player_name, name from team, player, (select player_id, match_winner from match, player_match where match.match_id = player_match.match_id and role='CaptainKeeper' and match_winner = team_id) as temp_table where player.player_id = temp_table.player_id and team.team_id = temp_table.match_winner order by player_name, name;
 
@@ -66,7 +66,7 @@ select player_name, name from team, player, (select player_id, match_winner from
 
 SELECT player_name,players_total_runs AS runs_scored FROM (SELECT player_id,player_name, SUM(runs_scored) AS players_total_runs FROM player JOIN batsman_scored NATURAL LEFT OUTER JOIN ball_by_ball ON player_id=striker WHERE player_id IN (SELECT striker FROM (SELECT striker,MAX(runs_match) as max_runs_match FROM (SELECT striker,match_id,SUM(runs_scored) AS runs_match FROM batsman_scored NATURAL LEFT OUTER JOIN ball_by_ball GROUP BY striker,match_id) AS foo GROUP BY striker  ) AS foo WHERE max_runs_match >=50) GROUP BY player_id) AS foo ORDER BY players_total_runs DESC , player_name ASC ;
 
---18-- (count = 7) (confirmed from Prakhar, confirm from someone else)
+--18-- 
 
 select player_name from player, (select striker, runs_scored from (select match_id, team_batting, striker, sum(runs_scored) as runs_scored from batsman_scored natural full outer join ball_by_ball group by match_id, team_batting, striker) as temp_table, match where match.match_id = temp_table.match_id and team_batting != match_winner) as temp2_table where player.player_id = striker and runs_scored >= 100 order by player_name;
 
