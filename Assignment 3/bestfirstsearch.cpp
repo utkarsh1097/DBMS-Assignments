@@ -6,24 +6,24 @@
 
 using namespace std;
 
-vector<vector<double>> datapoints, mbr_min, mbr_max;	//Stores the datapoints, all the min mbr, all the max mbr
-vector<vector<int>> indexes;	//Store indexes of all datapoints
+double **datapoints, **mbr_min, **mbr_max;	//Stores the datapoints, all the min mbr, all the max mbr
+int **indexes;	//Store indexes of all datapoints
 int sort_dim, counter;	//Dimension on which sort has to be done
+int comp_d;
 
 bool comparator(int a, int b)
 {
-	int d = datapoints[a].size();
 	if(datapoints[a][sort_dim] != datapoints[b][sort_dim])
 		return datapoints[a][sort_dim] < datapoints[b][sort_dim];
 	else
 	{
-		int k = (sort_dim+1)%d;
+		int k = (sort_dim+1)%comp_d;
 		while(true)
 		{
 			if(datapoints[a][k] != datapoints[b][k])
 				return datapoints[a][k] < datapoints[b][k];
 			else
-				++k;
+				k = (k+1)%comp_d;
 		}
 	}
 }
@@ -31,7 +31,7 @@ bool comparator(int a, int b)
 class Node
 {
 	private:
-		int ID, point_idx, mbr_min_idx, mbr_max_idx;
+		double *point, *mbr_min, *mbr_max;
 		Node *left, *right;
 	public:
 		Node()
@@ -40,14 +40,13 @@ class Node
 			right = NULL;
 		}
 
-		Node(int in_id, int in_point, int in_mbr_min, int in_mbr_max)
+		Node(double *in_point, double *in_mbr_min, double *in_mbr_max)
 		{
-			ID = in_id;
 			left = NULL;
 			right = NULL;
-			point_idx = in_point;
-			mbr_max_idx = in_mbr_max;
-			mbr_min_idx = in_mbr_min;
+			point = in_point;
+			mbr_max = in_mbr_max;
+			mbr_min = in_mbr_min;
 		}
 
 		void assignL(Node* child)
@@ -60,11 +59,6 @@ class Node
 			right = child;
 		}
 
-		int getID()
-		{
-			return ID;
-		}
-
 		Node *getLChild()
 		{
 			return left;
@@ -75,24 +69,24 @@ class Node
 			return right;
 		}
 
-		int getPointIdx()
+		double *getPoint()
 		{
-			return point_idx;
+			return point;
 		}
 
-		int getMinMBRIdx()
+		double *getMinMBR()
 		{
-			return mbr_min_idx;
+			return mbr_min;
 		}
 
-		int getMaxMBRIdx()
+		double *getMaxMBR()
 		{
-			return mbr_max_idx;
+			return mbr_max;
 		}
 
 };
 
-Node *buildTree(int level, int dim, int L, int R, int mbr_min_idx, int mbr_max_idx, Node *pointers[])
+Node *buildTree(int level, int dim, int L, int R, int mbr_min_idx, int mbr_max_idx)
 {
 	if(R < L)	//Leaf node condition
 		return NULL;
@@ -101,16 +95,15 @@ Node *buildTree(int level, int dim, int L, int R, int mbr_min_idx, int mbr_max_i
 	
 	int point_idx = indexes[split_on_dim][mid];	//Stores the index of current point
 
-	vector<int> temp;	//will help in "sorting" the vector of indexes so that at each level we get the correct lists sorted on each dimension
-
 	for(int d = 0; d < dim; ++d)
 	{
 		if(dim != split_on_dim)
 		{
 			//What we do here is that we will sort the index[d] array in such a way that the sorting and ordering of the left child and right child in all dimensions is maintained always
-			temp.clear();
+			int temp[R-L+1];	//will help in "sorting" the vector of indexes so that at each level we get the correct lists sorted on each dimension
+		
 			for(int i = L; i<=R; ++i)
-				temp.push_back(indexes[d][i]);
+				temp[i-L] = (indexes[d][i]);
 			int i = L, j = mid+1, k = L;
 			indexes[d][mid] = point_idx;	//for the sake of conserving this value in sorted lists of other dimensions
 			while(i < mid && j <= R)
@@ -151,44 +144,44 @@ Node *buildTree(int level, int dim, int L, int R, int mbr_min_idx, int mbr_max_i
 		}
 	}
 
-	Node *curnode = new Node(counter, point_idx, mbr_min_idx, mbr_max_idx);	
-	pointers[counter] = curnode;
-
-	vector<double> new_mbr_min, new_mbr_max;
-	new_mbr_min = mbr_min[mbr_min_idx];
-	new_mbr_max = mbr_max[mbr_max_idx];
-	new_mbr_max[split_on_dim] = datapoints[point_idx][split_on_dim];
-	new_mbr_min[split_on_dim] = datapoints[point_idx][split_on_dim];
+	Node *curnode = new Node(datapoints[point_idx], mbr_min[mbr_min_idx], mbr_max[mbr_max_idx]);	
 
 	++counter;
+	// double new_mbr_min[dim], new_mbr_max[dim];
+	for(int d = 0; d < dim; d++)
+	{
+		mbr_min[counter][d] = mbr_min[mbr_min_idx][d];
+		mbr_max[counter][d] = mbr_max[mbr_max_idx][d];
+	}
+
+	mbr_min[counter][split_on_dim] = datapoints[point_idx][split_on_dim];
+	mbr_max[counter][split_on_dim] = datapoints[point_idx][split_on_dim];
+
+	
 
 	int new_mbr_min_idx = counter, new_mbr_max_idx = counter;
 
-	mbr_min[counter] = new_mbr_min;
-	mbr_max[counter] = new_mbr_max;
 
 	//The commented code below is to obtain the KD-Tree with in-order traversal
 	/*for(int i = 0; i < dim; ++i)
 		cout<<datapoints[point_idx][i]<<" ";
 	cout<<endl;*/
-	curnode->assignL(buildTree(level+1, dim, L, mid-1, mbr_min_idx, new_mbr_max_idx, pointers));
-	curnode->assignR(buildTree(level+1, dim, mid+1, R, new_mbr_min_idx, mbr_max_idx, pointers));
+	curnode->assignL(buildTree(level+1, dim, L, mid-1, mbr_min_idx, new_mbr_max_idx));
+	curnode->assignR(buildTree(level+1, dim, mid+1, R, new_mbr_min_idx, mbr_max_idx));
 
 	return curnode;
 }
 
-double distance(vector<double> &p1, vector<double> &p2)
+double distance(int d, double *p1, double *p2)
 {
-	int d = p1.size();
 	double ans = 0.0;
 	for(int i = 0; i < d; ++i)
 		ans = ans + (p1[i]-p2[i])*(p1[i]-p2[i]);
 	return ans;
 }
 
-bool lexi_compare(vector<double> &p1, vector<double> &p2)	//return true if p1 lexicographically smaller than p2
+bool lexi_compare(int d, double *p1, double *p2)	//return true if p1 lexicographically smaller than p2
 {
-	int d = p1.size();
 	for(int i = 0; i < d; ++i)
 	{
 		if(p1[i] != p2[i])
@@ -196,22 +189,21 @@ bool lexi_compare(vector<double> &p1, vector<double> &p2)	//return true if p1 le
 	}
 }
 
-double mbr_distance(int mbr_min_idx, int mbr_max_idx, vector<double> &query_point)
+double mbr_distance(int d, double *mbr_min, double *mbr_max, double query_point[])
 {
 	double ans = 0.0;
-	int d = query_point.size();
 	for(int i = 0; i < d; ++i)
 	{
-		if(query_point[i] < mbr_min[mbr_min_idx][i])
-			ans = ans+ (mbr_min[mbr_min_idx][i]-query_point[i])*(mbr_min[mbr_min_idx][i]-query_point[i]);
+		if(query_point[i] < mbr_min[i])
+			ans = ans+ (mbr_min[i]-query_point[i])*(mbr_min[i]-query_point[i]);
 		else
-		if(query_point[i] > mbr_max[mbr_max_idx][i])
-			ans = ans+ (query_point[i]-mbr_max[mbr_max_idx][i])*(query_point[i]-mbr_max[mbr_max_idx][i]);
+		if(query_point[i] > mbr_max[i])
+			ans = ans+ (query_point[i]-mbr_max[i])*(query_point[i]-mbr_max[i]);
 	}
 	return ans;
 }
 
-void bestFirstSearch(Node *pointers[], vector<double> &query_point, priority_queue<pair<double, int>> &candidates, priority_queue<pair<double, int>> &answer)
+void bestFirstSearch(int dim, double query_point[], priority_queue<pair<double, Node *>> &candidates, priority_queue<pair<double, Node *>> &answer)
 {
 	// TODO: Implement best first search and find the times for 20NN queries. This will complete this file's part.
 	while(true)
@@ -219,7 +211,7 @@ void bestFirstSearch(Node *pointers[], vector<double> &query_point, priority_que
 		counter++;
 		if(candidates.size() == 0)
 			return;
-		pair<double, int> P = candidates.top(), Q;
+		pair<double, Node *> P = candidates.top(), Q;
 		candidates.pop();
 		if(answer.size() >= 20)
 		{
@@ -227,58 +219,57 @@ void bestFirstSearch(Node *pointers[], vector<double> &query_point, priority_que
 			if(Q.first < -P.first)
 				return;
 		}
-		Node *curnode = pointers[P.second];
-		int curpoint_idx = curnode->getPointIdx();
-		double cur_distance = distance(datapoints[curpoint_idx], query_point);
-		
+		Node *curnode = P.second;
+		double *curpoint = curnode->getPoint();
+		double cur_distance = distance(dim, curpoint, query_point);
 		if(answer.size() >= 20)
 		{
 			if(cur_distance < Q.first)
 			{
 				answer.pop();
-				answer.push(make_pair(cur_distance, curnode->getID()));
+				answer.push(make_pair(cur_distance, curnode));
 			}
 			else
 			if(cur_distance == Q.first)
 			{
-				if(lexi_compare(datapoints[curpoint_idx], datapoints[pointers[Q.second]->getPointIdx()]))
+				if(lexi_compare(dim, curpoint, Q.second->getPoint()))
 				{
 					answer.pop();
-					answer.push(make_pair(cur_distance, curnode->getID()));
+					answer.push(make_pair(cur_distance, curnode));
 				}
 			}
 		}
 		else
 		{	
-			answer.push(make_pair(cur_distance, curnode->getID()));
+			answer.push(make_pair(cur_distance, curnode));
 		}
 		Q = answer.top();
 		Node *LChild = curnode->getLChild(), *RChild = curnode->getRChild();
 		double lchild_distance, rchild_distance;
 		if(LChild != NULL)
 		{
-			lchild_distance = mbr_distance(LChild->getMinMBRIdx(), LChild->getMaxMBRIdx(), query_point);
+			lchild_distance = mbr_distance(dim, LChild->getMinMBR(), LChild->getMaxMBR(), query_point);
 			if(answer.size() >= 20)
 			{
 				if(lchild_distance <= Q.first)
-					candidates.push(make_pair(-lchild_distance, LChild->getID()));		
+					candidates.push(make_pair(-lchild_distance, LChild));		
 			}
 			else
 			{
-				candidates.push(make_pair(-lchild_distance, LChild->getID()));			
+				candidates.push(make_pair(-lchild_distance, LChild));			
 			}
 		}
 		if(RChild != NULL)
 		{
-			rchild_distance = mbr_distance(RChild->getMinMBRIdx(), RChild->getMaxMBRIdx(), query_point);
+			rchild_distance = mbr_distance(dim, RChild->getMinMBR(), RChild->getMaxMBR(), query_point);
 			if(answer.size() >= 20)
 			{
 				if(rchild_distance <= Q.first)
-					candidates.push(make_pair(-rchild_distance, RChild->getID()));			
+					candidates.push(make_pair(-rchild_distance, RChild));			
 			}
 			else
 			{
-				candidates.push(make_pair(-rchild_distance, RChild->getID()));			
+				candidates.push(make_pair(-rchild_distance, RChild));			
 			}
 		}
 	}
@@ -297,40 +288,46 @@ int main()
 		int N, D;
 		double data;
 		cin>>D>>N;
+		comp_d = D;
 		//First, take in the tuples
-		datapoints.resize(N);
-		mbr_min.resize(N+1);	//Should be N+1, but just testing
-		mbr_max.resize(N+1);	////Should be N+1, but just testing
-		indexes.resize(D);
+		datapoints = new double* [N];
+		mbr_min = new double* [N+1];	//Should be N+1, but just testing
+		mbr_max = new double* [N+1];	////Should be N+1, but just testing
+		indexes = new int* [D];
 		for(int i = 0; i < N; ++i)
 		{
-			datapoints[i].resize(D);
+			datapoints[i] = new double [D];
+			mbr_min[i] = new double [D];
+			mbr_max[i] = new double [D];
 			for(int j = 0; j < D; ++j)
 			{
 				cin>>data;
 				datapoints[i][j] = data;
 			}
 		}
+		mbr_min[N] = new double [D];
+		mbr_max[N] = new double [D];
 		fclose(stdin);
 
 		//Now we will have to sort the tuples. Sorting is maintained by instead sorting an integer array of indexes. The comparator function looks into the datapoints instead.
 		//Sorting needs to be maintained wrt each dimension.
 		for(int i = 0; i < D; ++i)
 		{
-			indexes[i].resize(N);
+			indexes[i] = new int [N];
 			for(int j = 0; j < N; ++j)
 				indexes[i][j] = j;
 			sort_dim = i;
-			sort(indexes[i].begin(), indexes[i].end(), comparator);
+			sort(indexes[i], indexes[i]+N, comparator);
 		} 
 
-		vector<double> new_mbr_min(D, 0.0), new_mbr_max(D, 1.0);
-		mbr_min[0] = new_mbr_min;
-		mbr_max[0] = new_mbr_max;
-		Node *pointers[N];
-
+		for(int i = 0; i < D; i++)
+		{
+			mbr_min[0][i] = 0.0;
+			mbr_max[0][i] = 1.0;
+		}
+		
 		counter = 0;
-		Node *head = buildTree(0, D, 0, N-1, 0, 0, pointers);	//Build the KD Tree
+		Node *head = buildTree(0, D, 0, N-1, 0, 0);	//Build the KD Tree
 		// cout<<0<<endl;	//KD-Tree construction completed
 
 		double average_time = 0.0;
@@ -343,27 +340,27 @@ int main()
 		for(int i = 0; i < 100; ++i)
 		{
 
-			priority_queue<pair<double, int>> candidates, answer;		//Candidates is min heap, answer is max heap
-			candidates.push(make_pair(-0.0, 0));	//Initially the root MBR is present
+			priority_queue<pair<double, Node *>> candidates, answer;		//Candidates is min heap, answer is max heap
+			candidates.push(make_pair(-0.0, head));	//Initially the root MBR is present
 			
-			vector<double> query_point;
-			query_point.resize(D);
+			double query_point[D];
+
 			for(int i = 0; i < D; ++i)
 			{
 				cin>>query_point[i];
 			}
 			//Now start finding kNN
-			bestFirstSearch(pointers, query_point, candidates, answer);
+			bestFirstSearch(D, query_point, candidates, answer);
 
 			filename = pathname+"/"+to_string(i+1)+".txt";
 			freopen(filename.c_str(), "w", stdout);
-			vector<int> ans;
-			ans.resize(20);
+			
+			double *ans[20];
 			int k = 0;
 
 			while(!answer.empty())
 			{
-				ans[k] = pointers[answer.top().second]->getPointIdx();
+				ans[k] = answer.top().second->getPoint();
 				++k;
 				answer.pop();
 			}
@@ -371,7 +368,7 @@ int main()
 			for(int i = k-1; i>=0; --i)
 			{
 				for(int j = 0; j < D; ++j)
-					cout<<datapoints[ans[i]][j]<<" ";
+					cout<<ans[i][j]<<" ";
 				cout<<endl;
 			}
 			fclose(stdout);
