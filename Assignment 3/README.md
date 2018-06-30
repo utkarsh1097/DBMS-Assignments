@@ -9,8 +9,8 @@ If you wish to run this test yourself, please follow the procedures given below.
 1. Run pip install -r requirements.txt
 
 2. To generate the datasets and querysets, run:
-	* g++ -o generate_dataset generate_dataset.cpp -no-pie; ./generate_dataset
-	* g++ -o generate_queryset generate_queryset.cpp -no-pie; ./generate_queryset
+	* chmod +x data_query.sh
+	* ./data_query.sh
 
 Now we can start the analysis!
 
