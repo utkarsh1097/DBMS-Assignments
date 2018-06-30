@@ -1,10 +1,12 @@
-README FILE.
+# README FILE.
 
-1. Files "part1.csv", "part2.sql" and "part3.txt" are the test files which were use for the Bulk Load, Multiple Inserts and JDBC method.
+===============================================================================================================================
 
-2. "jdbc.java" is the file that connects to the database at the PostgreSQL server. Password is kept "****" to security purposes.
+1. Files *part1.csv*, *part2.sql* and *part3.txt* are the test files which were use for the Bulk Load, Multiple Inserts and JDBC method.
 
-3. "generator.cpp" generates all the three test files that have been mentioned above. Function named "generatorx()" generates the relevant file for case "x".
+2. *jdbc.java* is the file that connects to the database at the PostgreSQL server. Replace the asterisks with the actual password.
+
+3. *generator.cpp* generates all the three test files that have been mentioned above. Function named "generatorx()" generates the relevant file for case "x".
 
 4. "postgresql-42.2.1.jar" is the class package that will be used to connect to PostgreSQL server.
 
