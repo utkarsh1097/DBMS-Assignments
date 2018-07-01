@@ -6,23 +6,23 @@ In addition, for 100NN queries we also observe the ratio of the second closest n
 
 If you wish to run this test yourself, please follow the procedures given below.
 
-1. Run pip install -r requirements.txt
+1. Run `pip install -r requirements.txt`
 
 2. To generate the datasets and querysets, run:
-	* chmod +x data_query.sh
-	* ./data_query.sh
+	* `chmod +x data_query.sh`
+	* `./data_query.sh`
 
 Now we can start the analysis!
 
 3. Run the following:
-	* chmod +x part_a.sh
-	* ./part_a.sh
+	* `chmod +x part_a.sh`
+	* `./part_a.sh`
 
 This will take some time, but after this step, you can observe the plot of the running times of the two algorithms.
 
 4. Run the following:
-	* chmod +x part_b.sh
-	* ./part_b.sh
+	* `chmod +x part_b.sh`
+	* `./part_b.sh`
 
 This will let you observe the plot of the distance ratio, as explained before.
 
